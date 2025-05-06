@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>validate drop down button to search different categories of product</description>
+   <name>TC_002_SearchField</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>60042d69-4b88-4aa0-8e03-7cafa0df7bce</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>28279c7f-79ef-46f4-b7cc-4f21ca7f920c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>45178b4a-c76e-44fd-a179-f852a45da17c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>28279c7f-79ef-46f4-b7cc-4f21ca7f920c</id>
+      <masked>false</masked>
+      <name>category</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>45178b4a-c76e-44fd-a179-f852a45da17c</id>
+      <masked>false</masked>
+      <name>item</name>
+   </variable>
+</TestCaseEntity>

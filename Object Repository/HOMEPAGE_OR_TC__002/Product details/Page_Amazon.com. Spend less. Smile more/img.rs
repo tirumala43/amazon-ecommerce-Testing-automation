@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img</name>
+   <tag></tag>
+   <elementGuidId>176ce30c-3681-4e2a-8805-761458f167e3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>img[alt=&quot;5 Pack Men’s Active Quick Dry Crew Neck T Shirts | Athletic Running Gym Workout Short Sleeve Tee Tops Bulk&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='CardInstanceSNRabGaxMEG40ny_ZJ29cw']/div[2]/div/a[2]/div/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>f044c8a9-381f-4c8e-ba5c-fc209dea399e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>5 Pack Men’s Active Quick Dry Crew Neck T Shirts | Athletic Running Gym Workout Short Sleeve Tee Tops Bulk</value>
+      <webElementGuid>b68778e2-c302-4a02-bfa4-208a3fbffa35</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://m.media-amazon.com/images/W/MEDIAX_849526-T1/images/I/81oWf0Q47KL._AC_SY110_.jpg</value>
+      <webElementGuid>8817e8af-d7d1-4972-a08b-fecf16a31732</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-a-hires</name>
+      <type>Main</type>
+      <value>https://m.media-amazon.com/images/W/MEDIAX_849526-T1/images/I/81oWf0Q47KL._AC_SY220_.jpg</value>
+      <webElementGuid>f236a9c5-0f84-41aa-9ef2-30826b1a9bb1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;CardInstanceSNRabGaxMEG40ny_ZJ29cw&quot;)/div[@class=&quot;a-cardui-body _quad-multi-asin-card-v2_fluid_fluidCardBody__3TzJ4 _quad-multi-asin-card-v2_style_cardBodyHasFooter__1l9jS&quot;]/div[@class=&quot;a-section a-spacing-base aok-clearfix _quad-multi-asin-card-v2_style_quadrantContainer__1hEF5&quot;]/a[@class=&quot;a-spacing-none a-link-normal aok-float-left aok-relative _quad-multi-asin-card-v2_style_quadrant__3xH-V _quad-multi-asin-card-v2_style_topRightQuadrant__2rEJ7 a-text-normal&quot;]/div[@class=&quot;a-image-container a-dynamic-image-container _quad-multi-asin-card-v2_style_quadrantImageContainer__2QeUm&quot;]/img[1]</value>
+      <webElementGuid>ae1f4db3-4374-419d-b056-2e67f6f26a97</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='CardInstanceSNRabGaxMEG40ny_ZJ29cw']/div[2]/div/a[2]/div/img</value>
+      <webElementGuid>18e718e7-6560-4a30-9e10-3ce8e0061533</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='5 Pack Men’s Active Quick Dry Crew Neck T Shirts | Athletic Running Gym Workout Short Sleeve Tee Tops Bulk']</value>
+      <webElementGuid>9f95cc84-50b1-44b7-bec5-3da2fba9b178</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[2]/div/img</value>
+      <webElementGuid>f5273f9f-caa5-4777-9e0d-4a8937d5e7c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@alt = '5 Pack Men’s Active Quick Dry Crew Neck T Shirts | Athletic Running Gym Workout Short Sleeve Tee Tops Bulk' and @src = 'https://m.media-amazon.com/images/W/MEDIAX_849526-T1/images/I/81oWf0Q47KL._AC_SY110_.jpg']</value>
+      <webElementGuid>9935833f-612a-49f5-8b85-2f26a56fc6c5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

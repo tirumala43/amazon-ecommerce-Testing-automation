@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_- EUR - Euro</name>
+   <tag></tag>
+   <elementGuidId>8bddbc37-700d-4410-8d7e-36b7c69e23c8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='icp-currency-change-note']/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#icp-currency-change-note > span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>d934fe50-12d4-41ee-bc03-0c227f220120</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>dir</name>
+      <type>Main</type>
+      <value>ltr</value>
+      <webElementGuid>7ef73a81-9212-4764-ac2e-ff6db7ed69ac</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>€ - EUR - Euro</value>
+      <webElementGuid>8b3e519d-f7f2-4fb9-be84-0a7154ac711e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;icp-currency-change-note&quot;)/span[1]</value>
+      <webElementGuid>7db67293-60a1-45e9-9643-6777452f744f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='icp-currency-change-note']/span</value>
+      <webElementGuid>ec79221d-b875-42d4-a315-58f648004f39</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div/span[2]/span</value>
+      <webElementGuid>d52a9d7f-c88d-4931-9abd-25914fe83bd4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '€ - EUR - Euro' or . = '€ - EUR - Euro')]</value>
+      <webElementGuid>469b8623-2d57-4063-9a20-8dbf130d93f3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

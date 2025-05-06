@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_Amazon_login_001,Chrome 120.0.0.0,DDT_Amazon_login_001 test case is used in the test suite,,23-01-2024 20:50:26,23-01-2024 20:51:16,49.306s,PASSED
+,,,,,,,
+Test Cases/DataDrivenTesting/DDT_Amazon_login_001,Chrome 120.0.0.0,Data driven testing to login into Amazon website,,23-01-2024 20:50:27,23-01-2024 20:51:16,49.069s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,23-01-2024 20:50:27,23-01-2024 20:50:30,2.668s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,23-01-2024 20:50:30,23-01-2024 20:50:33,3.411s,PASSED
+"click(findTestObject(""Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Chrome 120.0.0.0,,,23-01-2024 20:50:33,23-01-2024 20:51:08,35.064s,PASSED
+"setText(findTestObject(""Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/input_email""), ""tirumala1643@gmail.com"")",Chrome 120.0.0.0,,,23-01-2024 20:51:08,23-01-2024 20:51:09,1.114s,PASSED
+"click(findTestObject(""Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/inputcontinue""))",Chrome 120.0.0.0,,,23-01-2024 20:51:09,23-01-2024 20:51:14,5.166s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/input_password""), ""zJunTcfE+7qVant9yaEiCw=="")",Chrome 120.0.0.0,,,23-01-2024 20:51:14,23-01-2024 20:51:15,0.500s,PASSED
+"click(findTestObject(""Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/inputsignInSubmit""))",Chrome 120.0.0.0,,,23-01-2024 20:51:15,23-01-2024 20:51:15,0.393s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,23-01-2024 20:51:15,23-01-2024 20:51:16,0.455s,PASSED

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Books</name>
+   <tag></tag>
+   <elementGuidId>17c8f291-ad39-465c-a4c0-0ba0857ac3fa</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.nav-search-facade</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='nav-search-dropdown-card']/div/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>b420a2e7-26d6-4dfc-8ecf-6ae7611ffe53</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nav-search-facade</value>
+      <webElementGuid>04ea85f2-5ec5-4944-bf08-04b8e1857969</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-value</name>
+      <type>Main</type>
+      <value>search-alias=aps</value>
+      <webElementGuid>d0b51e76-7e3a-4eac-a7fd-4e3e4e42d97c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+      Books
+      
+    </value>
+      <webElementGuid>23556e99-0c57-42c2-9bad-f8546797f2bb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;nav-search-dropdown-card&quot;)/div[@class=&quot;nav-search-scope nav-sprite&quot;]/div[@class=&quot;nav-search-facade&quot;]</value>
+      <webElementGuid>97ee0889-59c5-4133-a180-2c18d608c51e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='nav-search-dropdown-card']/div/div</value>
+      <webElementGuid>0902bf6e-de20-4a04-b1d5-b18b770337bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form/div/div/div/div</value>
+      <webElementGuid>973755b8-d39d-4794-a950-2f8a304d3e83</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = '
+      Books
+      
+    ' or . = '
+      Books
+      
+    ')]</value>
+      <webElementGuid>f4986c6c-3e9f-4bf1-86f2-7c05dbd1f0ee</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

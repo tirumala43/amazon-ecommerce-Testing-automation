@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_imgTagWrapper</name>
+   <tag></tag>
+   <elementGuidId>abb2abac-1097-4d3e-91d9-fe63ea5444c0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='main-image-container']/ul/li[5]/span/span/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>li.image.item.itemNo5.maintain-height.selected > span.a-list-item > span.a-declarative > div.imgTagWrapper</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>5fecaef5-5f6b-4796-9e84-a34130ac85a8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>imgTagWrapper</value>
+      <webElementGuid>b45c09d8-0097-4ed1-affb-7900889f12b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main-image-container&quot;)/ul[@class=&quot;a-unordered-list a-nostyle a-horizontal list maintain-height&quot;]/li[@class=&quot;image item itemNo5 maintain-height selected&quot;]/span[@class=&quot;a-list-item&quot;]/span[@class=&quot;a-declarative&quot;]/div[@class=&quot;imgTagWrapper&quot;]</value>
+      <webElementGuid>96da6ed0-f9f0-4d4a-95d1-0abcd5adad6e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='main-image-container']/ul/li[5]/span/span/div</value>
+      <webElementGuid>7f9cdbf0-145d-4af7-98a5-a0a8279a7817</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[5]/span/span/div</value>
+      <webElementGuid>642f8d36-6e11-45aa-b89b-30000f8b1f25</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

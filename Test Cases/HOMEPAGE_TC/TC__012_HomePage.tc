@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify that home page is displayed after the login or not</description>
+   <name>TC__012_HomePage</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d6936e52-11bb-4215-8204-130ab63b4798</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img</name>
+   <tag></tag>
+   <elementGuidId>95b7557f-6642-47fa-b514-935f0969be3a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>img[alt=&quot;Real Essentials 5 Pack: Men’s Dry-Fit Moisture Wicking Active Athletic Performance Crew T-Shirt&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='CardInstance9qgZx0cf4Zib2CJgKBT1Kg']/div[2]/div/a/div/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>25c0dedb-4aa0-4255-b266-9139b20af540</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Real Essentials 5 Pack: Men’s Dry-Fit Moisture Wicking Active Athletic Performance Crew T-Shirt</value>
+      <webElementGuid>fa3284e5-2c46-4840-9470-49248847ea29</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://m.media-amazon.com/images/W/MEDIAX_849526-T1/images/I/91F-kekeGoL._AC_SY110_.jpg</value>
+      <webElementGuid>3ee6a661-9e3e-4e76-adc3-518219aef7ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-a-hires</name>
+      <type>Main</type>
+      <value>https://m.media-amazon.com/images/W/MEDIAX_849526-T1/images/I/91F-kekeGoL._AC_SY220_.jpg</value>
+      <webElementGuid>d7b29a08-0bfa-4593-b81b-2b3dafbe52e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;CardInstance9qgZx0cf4Zib2CJgKBT1Kg&quot;)/div[@class=&quot;a-cardui-body _quad-multi-asin-card-v2_fluid_fluidCardBody__3TzJ4 _quad-multi-asin-card-v2_style_cardBodyHasFooter__1l9jS&quot;]/div[@class=&quot;a-section a-spacing-base aok-clearfix _quad-multi-asin-card-v2_style_quadrantContainer__1hEF5&quot;]/a[@class=&quot;a-spacing-none a-link-normal aok-float-left aok-relative _quad-multi-asin-card-v2_style_quadrant__3xH-V _quad-multi-asin-card-v2_style_topLeftQuadrant__yF7Ht a-text-normal&quot;]/div[@class=&quot;a-image-container a-dynamic-image-container _quad-multi-asin-card-v2_style_quadrantImageContainer__2QeUm&quot;]/img[1]</value>
+      <webElementGuid>084e53a6-8704-4ef9-9585-601ed235ff2b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='CardInstance9qgZx0cf4Zib2CJgKBT1Kg']/div[2]/div/a/div/img</value>
+      <webElementGuid>8be05fb3-1ead-46ea-8195-5f5c43301f38</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='Real Essentials 5 Pack: Men’s Dry-Fit Moisture Wicking Active Athletic Performance Crew T-Shirt']</value>
+      <webElementGuid>64ebbc29-3354-4878-8488-70e6f44b09d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/a/div/img</value>
+      <webElementGuid>b4b9d102-b9b8-4788-9902-aedc27565d4e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@alt = 'Real Essentials 5 Pack: Men’s Dry-Fit Moisture Wicking Active Athletic Performance Crew T-Shirt' and @src = 'https://m.media-amazon.com/images/W/MEDIAX_849526-T1/images/I/91F-kekeGoL._AC_SY110_.jpg']</value>
+      <webElementGuid>0e212f25-c475-410f-b052-2321f2fa3b5f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

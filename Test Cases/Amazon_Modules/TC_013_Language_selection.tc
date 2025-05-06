@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>verify that language is selected</description>
+   <name>TC_013_Language_selection</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2d6ea598-dda5-47be-aadb-23a36d232305</testCaseGuid>
+</TestCaseEntity>

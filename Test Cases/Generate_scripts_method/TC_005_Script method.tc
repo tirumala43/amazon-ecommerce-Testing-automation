@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>write test cases in script method</description>
+   <name>TC_005_Script method</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>59ba9dd8-2a2e-4869-8856-1150795bb824</testCaseGuid>
+</TestCaseEntity>

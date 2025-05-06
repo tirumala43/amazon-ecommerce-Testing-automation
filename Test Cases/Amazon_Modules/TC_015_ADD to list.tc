@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>verify that item is added in the wish list or not</description>
+   <name>TC_015_ADD to list</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6e7172b2-554d-4af6-b09a-59fe62b45a2c</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>182aaae1-5fd6-4329-a516-6f1705e6c0e0</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Test_Data/DDT_Amazon_login_Excel_file_001</testDataId>
+   </testDataLinks>
+</TestCaseEntity>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS_Amazon_login_001" time="15.253" tests="1" failures="0" errors="0">
+   <testsuite name="TS_Amazon_login_001" tests="1" failures="0" errors="0" time="15.253" skipped="0" timestamp="27-01-2024T18:39:19" hostname="TIRUM - Tiru43" id="Test Suites/TS_Amazon_login_001/TS_Amazon_login_001">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\TIRUM\\git\\SI-GuidedProject-705242-1704854759\\Reports\\20240127_183913\\TS_Amazon_login_001\\TS_Amazon_login_001\\20240127_183913"/>
+         <property name="logFiles" value="C:\\Users\\TIRUM\\git\\SI-GuidedProject-705242-1704854759\\Reports\\20240127_183913\\TS_Amazon_login_001\\TS_Amazon_login_001\\20240127_183913\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="TIRUM - Tiru43"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.104"/>
+         <property name="sessionId" value="6602bcad90d9bb4d27527e2f21a1d628"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/DataDrivenTesting/DDT_Amazon_login_001" time="14.881" classname="Test Cases/DataDrivenTesting/DDT_Amazon_login_001" status="PASSED">
+         <system-out><![CDATA[27-01-2024T18:39:19 - [TEST_CASE][PASSED] - Test Cases/DataDrivenTesting/DDT_Amazon_login_001: Test Cases/DataDrivenTesting/DDT_Amazon_login_001
+
+27-01-2024T18:39:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+27-01-2024T18:39:20 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+27-01-2024T18:39:20 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+27-01-2024T18:39:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+27-01-2024T18:39:23 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+27-01-2024T18:39:26 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+27-01-2024T18:39:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in")): Object: 'Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' is clicked on
+
+27-01-2024T18:39:27 - [MESSAGE][PASSED] - Object: 'Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' is clicked on
+
+27-01-2024T18:39:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/input_email"), "tirumala1643@gmail.com"): Text 'tirumala1643@gmail.com' is set on object 'Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/input_email'
+
+27-01-2024T18:39:29 - [MESSAGE][PASSED] - Text 'tirumala1643@gmail.com' is set on object 'Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/input_email'
+
+27-01-2024T18:39:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/inputcontinue")): Object: 'Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+27-01-2024T18:39:32 - [MESSAGE][PASSED] - Object: 'Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+27-01-2024T18:39:32 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/input_password"), "zJunTcfE+7qVant9yaEiCw=="): Text ****** has been set on object 'Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/input_password'
+
+27-01-2024T18:39:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/input_password'
+
+27-01-2024T18:39:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/inputsignInSubmit")): Object: 'Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+27-01-2024T18:39:33 - [MESSAGE][PASSED] - Object: 'Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+27-01-2024T18:39:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+27-01-2024T18:39:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[27-01-2024T18:39:19 - [TEST_SUITE][PASSED] - TS_Amazon_login_001: Test Cases/DataDrivenTesting/DDT_Amazon_login_001]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS_LOGIN_SearchField</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>afe67bde-ad5b-41eb-a199-69382bd37768</testSuiteGuid>
+   <testCaseLink>
+      <guid>cfca9aa8-2d75-4d01-8b67-431db04ce843</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AmazonLogin_Page/TC_001_Amazon_login</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>acb399d4-ed17-48d9-89d8-3c32d673c417</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Test_Data/DDT_Amazon_login_Excel_file_001</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>acb399d4-ed17-48d9-89d8-3c32d673c417</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>USERNAME</value>
+         <variableId>d2e28cc1-16a4-4b36-a30f-7c0d5b9e93e8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>acb399d4-ed17-48d9-89d8-3c32d673c417</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>PASSWORD</value>
+         <variableId>25af8b48-58c1-4860-8362-dce18c61d53b</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>15715a06-66a8-4d78-b0cc-2e8ca8c44d0c</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/AmazonLogin_Page/TC_002_SearchField</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>91fa60e6-b119-48fa-a348-a399af2daceb</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/Test_Data/SearchField_TD_002</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>91fa60e6-b119-48fa-a348-a399af2daceb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>category</value>
+         <variableId>28279c7f-79ef-46f4-b7cc-4f21ca7f920c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>91fa60e6-b119-48fa-a348-a399af2daceb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>item</value>
+         <variableId>45178b4a-c76e-44fd-a179-f852a45da17c</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

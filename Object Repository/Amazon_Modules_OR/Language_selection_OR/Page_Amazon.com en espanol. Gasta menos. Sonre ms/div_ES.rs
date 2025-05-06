@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_ES</name>
+   <tag></tag>
+   <elementGuidId>7182f38c-b51f-4537-82bf-36ccb7c8e7e7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='icp-nav-flyout']/span/span[2]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.nav-line-2 > div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>982d9af7-ff62-4bb6-bdd5-b867ac965a26</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ES</value>
+      <webElementGuid>78c1a5ea-b2c3-49e9-ac08-ba9cd09c6cf0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;icp-nav-flyout&quot;)/span[@class=&quot;icp-nav-link-inner&quot;]/span[@class=&quot;nav-line-2&quot;]/div[1]</value>
+      <webElementGuid>7df78273-2770-4d6c-b2b6-ae2669b8a699</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='icp-nav-flyout']/span/span[2]/div</value>
+      <webElementGuid>65b7cd13-b41e-455b-a6e4-e9eab4196a4c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[2]/div</value>
+      <webElementGuid>77d0a8d8-d9a5-44f5-8c0e-f77f05b01f54</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'ES' or . = 'ES')]</value>
+      <webElementGuid>05eb9630-468c-47a7-8018-b757cb9be63e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

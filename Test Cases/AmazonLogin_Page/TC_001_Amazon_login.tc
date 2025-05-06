@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Data driven testing to login into Amazon website</description>
+   <name>TC_001_Amazon_login</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6e6f073b-dea1-4d14-adb3-83feae2bc065</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>e986bdcb-df54-4224-9b6f-1a67f9dc904f</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/Test_Data/DDT_Amazon_login_Excel_file_001</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>e986bdcb-df54-4224-9b6f-1a67f9dc904f</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>USERNAME</value>
+      <variableId>d2e28cc1-16a4-4b36-a30f-7c0d5b9e93e8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId>e986bdcb-df54-4224-9b6f-1a67f9dc904f</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>PASSWORD</value>
+      <variableId>25af8b48-58c1-4860-8362-dce18c61d53b</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d2e28cc1-16a4-4b36-a30f-7c0d5b9e93e8</id>
+      <masked>false</masked>
+      <name>USERNAME</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>25af8b48-58c1-4860-8362-dce18c61d53b</id>
+      <masked>false</masked>
+      <name>PASSWORD</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>check product image clickable, and size and details</description>
+   <name>TC_004_Record_mode_product_details</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6894c1e8-a950-4c0d-9f33-38763bba56cc</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,12 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Homepage_TS,Chrome 121.0.0.0,homepage related test cases and working in different browsers,,01-02-2024 08:10:57,01-02-2024 08:12:31,1m - 34.178s,FAILED
+,,,,,,,
+Test Cases/HOMEPAGE_TC/TC__009_Amazon_Username,Chrome 121.0.0.0,Verify whether the username is displayed or not,,01-02-2024 08:10:57,01-02-2024 08:11:47,49.099s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,01-02-2024 08:10:57,01-02-2024 08:11:06,8.952s,PASSED
+"callTestCase(findTestCase(""AmazonLogin_Page/TC_001_Amazon_login""), [""USERNAME"":"""", ""PASSWORD"":""""], STOP_ON_FAILURE)",Chrome 121.0.0.0,,,01-02-2024 08:11:06,01-02-2024 08:11:46,39.499s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,01-02-2024 08:11:46,01-02-2024 08:11:47,0.506s,PASSED
+,,,,,,,
+Test Cases/HOMEPAGE_TC/TC__013_HomePage,Chrome 121.0.0.0,Verify that home page is displayed after the login or not,,01-02-2024 08:11:47,01-02-2024 08:12:31,44.745s,FAILED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,01-02-2024 08:11:47,01-02-2024 08:11:52,5.579s,PASSED
+"callTestCase(findTestCase(""AmazonLogin_Page/TC_001_Amazon_login""), [""USERNAME"":"""", ""PASSWORD"":""""], STOP_ON_FAILURE)",Chrome 121.0.0.0,,,01-02-2024 08:11:52,01-02-2024 08:12:31,38.600s,FAILED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,01-02-2024 08:12:31,01-02-2024 08:12:31,0.486s,PASSED

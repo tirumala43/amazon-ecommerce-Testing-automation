@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>verify that products displayed on home page are clicable or not</description>
+   <name>TC__010_image_clickable</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>08275fe9-9513-485a-acf4-7a7d18b37360</testCaseGuid>
+</TestCaseEntity>

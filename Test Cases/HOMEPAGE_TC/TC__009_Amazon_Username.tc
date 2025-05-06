@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verify whether the username is displayed or not</description>
+   <name>TC__009_Amazon_Username</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a9df8c71-6636-4042-ae0f-ff050f22c8cc</testCaseGuid>
+</TestCaseEntity>

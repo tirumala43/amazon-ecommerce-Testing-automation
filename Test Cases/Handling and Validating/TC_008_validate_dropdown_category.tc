@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>checking the category drop down to verify books element is present or not</description>
+   <name>TC_008_validate_dropdown_category</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a9ec9d92-ad58-4dad-955f-346755544f18</testCaseGuid>
+</TestCaseEntity>

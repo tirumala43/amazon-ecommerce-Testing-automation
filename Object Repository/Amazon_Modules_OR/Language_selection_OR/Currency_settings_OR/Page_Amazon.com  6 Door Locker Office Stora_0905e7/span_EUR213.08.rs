@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_EUR213.08</name>
+   <tag></tag>
+   <elementGuidId>ae49ee04-2b2f-44f2-a427-48f00edf50b5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='corePrice_desktop']/div/table/tbody/tr/td[2]/span/span[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.a-price.a-text-price.a-size-medium.apexPriceToPay > span:nth-of-type(2)</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>5b2453c2-a868-4d75-a761-adfddbb7480c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>fbeda73a-24a5-4e85-b0d5-dcc965f2cb1d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>EUR213.08</value>
+      <webElementGuid>9df3461a-393f-4f44-8943-3aed27ae8f86</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;corePrice_desktop&quot;)/div[@class=&quot;a-section a-spacing-small&quot;]/table[@class=&quot;a-lineitem a-align-top&quot;]/tbody[1]/tr[1]/td[@class=&quot;a-span12&quot;]/span[@class=&quot;a-price a-text-price a-size-medium apexPriceToPay&quot;]/span[2]</value>
+      <webElementGuid>11bc4597-f2c1-4d07-9922-def9714791af</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='corePrice_desktop']/div/table/tbody/tr/td[2]/span/span[2]</value>
+      <webElementGuid>c5678f4d-7182-41a0-a1b4-c4a3bf319e4a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[2]/span/span[2]</value>
+      <webElementGuid>125b6f5e-5384-4d5b-bf5f-758d69c0990a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'EUR213.08' or . = 'EUR213.08')]</value>
+      <webElementGuid>4bdd9c68-5fd0-418b-9cfc-28d4f548d2cc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

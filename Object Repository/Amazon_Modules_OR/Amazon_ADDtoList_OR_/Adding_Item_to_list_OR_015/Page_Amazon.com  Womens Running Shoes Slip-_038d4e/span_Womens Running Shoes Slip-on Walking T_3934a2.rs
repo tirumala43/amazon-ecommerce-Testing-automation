@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Womens Running Shoes Slip-on Walking T_3934a2</name>
+   <tag></tag>
+   <elementGuidId>ff56441a-0f52-4b25-aade-1c354e3d5046</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.huc-atwl-header-small</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//a[@id='huc-item-link']/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>bd7d7290-089e-47d4-a7fe-6f5598e15a92</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>huc-atwl-header-small</value>
+      <webElementGuid>d8c9d74c-c77a-4ed0-b3f4-a9272a2742dd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Womens Running Shoes Slip-on Walking Tennis Sneakers Lightweight Breathable Casual Soft Sole Mesh Workout Sports Shoes</value>
+      <webElementGuid>9464e8b6-d8dd-4d5a-a725-a6fdfc238cb6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;huc-item-link&quot;)/span[@class=&quot;huc-atwl-header-small&quot;]</value>
+      <webElementGuid>c166c34b-b62d-43f7-8781-784b1846b384</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//a[@id='huc-item-link']/span</value>
+      <webElementGuid>84beed9c-1614-46e0-818e-ad7bade511d3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shopping List'])[1]/following::span[1]</value>
+      <webElementGuid>b658aa54-52d7-4713-9140-e246aaf814d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Add to List'])[2]/following::span[4]</value>
+      <webElementGuid>8df91a49-f729-4ad7-8b26-3e01a568a2bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='View Your List'])[1]/preceding::span[1]</value>
+      <webElementGuid>c17cec15-8f37-4022-b359-bf8f3ad780e9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Womens Running Shoes Slip-on Walking Tennis Sneakers Lightweight Breathable Casual Soft Sole Mesh Workout Sports Shoes' or . = 'Womens Running Shoes Slip-on Walking Tennis Sneakers Lightweight Breathable Casual Soft Sole Mesh Workout Sports Shoes')]</value>
+      <webElementGuid>1d65cb62-1438-4548-8a5c-b0557950434d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

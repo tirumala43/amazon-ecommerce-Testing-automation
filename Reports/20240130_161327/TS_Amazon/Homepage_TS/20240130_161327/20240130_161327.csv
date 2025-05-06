@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Homepage_TS,Chrome 120.0.0.0,homepage related test cases and working in different browsers,,30-01-2024 16:13:38,30-01-2024 16:15:20,1m - 42.574s,PASSED
+,,,,,,,
+Test Cases/HOMEPAGE_TC/TC__002_Amazon_Username,Chrome 120.0.0.0,Verify whether the username is displayed or not,,30-01-2024 16:14:22,30-01-2024 16:14:55,32.610s,PASSED
+"callTestCase(findTestCase(""DataDrivenTesting/DDT_Amazon_login_001""), [""USERNAME"":"""", ""PASSWORD"":""""], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,30-01-2024 16:14:22,30-01-2024 16:14:47,24.884s,PASSED
+"navigateToUrl(""https://www.amazon.com/?ref_=nav_ya_signin"")",Chrome 120.0.0.0,,,30-01-2024 16:14:47,30-01-2024 16:14:52,4.912s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/HOMEPAGE_OR_TC__002/Page_Amazon.com. Spend less. Smile more/span_Hello, Gumma""))",Chrome 120.0.0.0,,,30-01-2024 16:14:52,30-01-2024 16:14:53,0.916s,PASSED
+"verifyElementText(findTestObject(""Object Repository/HOMEPAGE_OR_TC__002/Page_Amazon.com. Spend less. Smile more/span_Hello, Gumma""), ""Hello, Gumma"")",Chrome 120.0.0.0,,,30-01-2024 16:14:53,30-01-2024 16:14:53,0.543s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,30-01-2024 16:14:53,30-01-2024 16:14:55,1.299s,PASSED
+,,,,,,,
+Test Cases/HOMEPAGE_TC/TC__001_HomePage,Chrome 120.0.0.0,Verify that home page is displayed after the login or not,,30-01-2024 16:14:55,30-01-2024 16:15:20,25.601s,PASSED
+"callTestCase(findTestCase(""DataDrivenTesting/DDT_Amazon_login_001""), [""USERNAME"":"""", ""PASSWORD"":""""], STOP_ON_FAILURE)",Chrome 120.0.0.0,,,30-01-2024 16:14:55,30-01-2024 16:15:15,19.967s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Amazon_login_OR/Page_Amazon Sign-In/Page_Amazon.com. Spend less. Smile more/a_us""), 0)",Chrome 120.0.0.0,,,30-01-2024 16:15:15,30-01-2024 16:15:20,4.589s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,30-01-2024 16:15:20,30-01-2024 16:15:20,0.784s,PASSED

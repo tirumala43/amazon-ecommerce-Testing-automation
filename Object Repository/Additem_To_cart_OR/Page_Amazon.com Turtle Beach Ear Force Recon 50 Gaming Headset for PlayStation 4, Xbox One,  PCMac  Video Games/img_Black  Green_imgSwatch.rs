@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>img_Black  Green_imgSwatch</name>
+   <tag></tag>
+   <elementGuidId>7543e138-34d2-4288-bfa2-ca9a25eb1bf6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#a-autoid-13-announce > div > div > img.imgSwatch</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='a-autoid-13-announce']/div/div/img</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>img</value>
+      <webElementGuid>322b2b73-acad-4ce7-95ae-bd5d05ef7b36</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>src</name>
+      <type>Main</type>
+      <value>https://m.media-amazon.com/images/I/41ZukexTE8L._SS36_.jpg</value>
+      <webElementGuid>de22fc3b-b24a-4450-8815-a1c98ccf11c2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Black / Green</value>
+      <webElementGuid>7f348a0a-5808-4ea3-a7a2-a1d9fdc1a216</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>imgSwatch</value>
+      <webElementGuid>8fca8259-aba4-41eb-b8e8-5e0c26dc8f42</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;a-autoid-13-announce&quot;)/div[1]/div[1]/img[@class=&quot;imgSwatch&quot;]</value>
+      <webElementGuid>95e9b74f-1235-4b22-a838-57831effd4e2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='a-autoid-13-announce']/div/div/img</value>
+      <webElementGuid>97423c77-07eb-4948-9db2-8e3a8b3cba5e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:img</name>
+      <type>Main</type>
+      <value>//img[@alt='Black / Green']</value>
+      <webElementGuid>d755fecc-6579-4d6a-a891-65015b671823</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/span/div/span/span/span/button/div/div/img</value>
+      <webElementGuid>1db43149-d633-4f52-869a-60e46aea3443</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//img[@src = 'https://m.media-amazon.com/images/I/41ZukexTE8L._SS36_.jpg' and @alt = 'Black / Green']</value>
+      <webElementGuid>f4f2aede-9657-4d41-a3de-ef348b0b099e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

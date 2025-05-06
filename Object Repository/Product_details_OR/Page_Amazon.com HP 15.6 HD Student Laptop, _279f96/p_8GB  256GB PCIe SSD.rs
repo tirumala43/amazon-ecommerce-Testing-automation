@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>p_8GB  256GB PCIe SSD</name>
+   <tag></tag>
+   <elementGuidId>2aa2b2cd-1fc1-457f-bdd3-b626b47902f7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p.a-text-left.a-size-base</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='a-autoid-10-announce']/div/div/p</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>8aff856b-efbf-45cf-b415-8ae6710d2ad1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>a-text-left a-size-base</value>
+      <webElementGuid>24369428-436c-4f66-9a9b-f536e0d34db7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>8GB | 256GB PCIe SSD</value>
+      <webElementGuid>e1176f76-a1af-4684-97e5-aa37dfa64974</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;a-autoid-10-announce&quot;)/div[@class=&quot;twisterSwatchWrapper_0 twisterSwatchWrapper thinWidthOverride&quot;]/div[@class=&quot;twisterTextDiv text&quot;]/p[@class=&quot;a-text-left a-size-base&quot;]</value>
+      <webElementGuid>fe6072a1-3a0e-44df-ae0d-cce7a084c218</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='a-autoid-10-announce']/div/div/p</value>
+      <webElementGuid>e4b32d48-d1f6-4c48-85e3-d1b7b4d7bfae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p</value>
+      <webElementGuid>cab524e4-9cd2-4b17-be70-219280f2925a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = '8GB | 256GB PCIe SSD' or . = '8GB | 256GB PCIe SSD')]</value>
+      <webElementGuid>96f83924-de1a-474f-9e22-ec7f9bb041a0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

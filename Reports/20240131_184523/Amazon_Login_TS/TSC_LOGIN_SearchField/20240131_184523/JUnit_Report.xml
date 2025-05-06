@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TSC_LOGIN_SearchField" time="378.179" tests="11" failures="0" errors="0">
+   <testsuite name="TS_LOGIN_SearchField" tests="6" failures="0" errors="0" time="197.87" skipped="0" timestamp="31-01-2024T18:45:34" hostname="TIRUM - Tiru43" id="Test Suites/Amazon_Login_TS/TS_LOGIN_SearchField">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\TIRUM\\git\\SI-GuidedProject-705242-1704854759\\Reports\\20240131_184523\\Amazon_Login_TS\\TS_LOGIN_SearchField\\20240131_184524"/>
+         <property name="logFiles" value="C:\\Users\\TIRUM\\git\\SI-GuidedProject-705242-1704854759\\Reports\\20240131_184523\\Amazon_Login_TS\\TS_LOGIN_SearchField\\20240131_184524\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="TIRUM - Tiru43"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.104"/>
+         <property name="sessionId" value="a038c04e1a962f6c15d9539f08f7fc9e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/AmazonLogin_Page/TC_Amazon_login_001" time="23.006" classname="Test Cases/AmazonLogin_Page/TC_Amazon_login_001" status="PASSED">
+         <system-out><![CDATA[31-01-2024T18:45:34 - [TEST_CASE][PASSED] - Test Cases/AmazonLogin_Page/TC_Amazon_login_001: Test Cases/AmazonLogin_Page/TC_Amazon_login_001
+
+31-01-2024T18:45:34 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Browser is opened with url: 'www.amazon.com'
+
+31-01-2024T18:45:34 - [TEST_STEP][PASSED] - openBrowser("www.amazon.com"): Browser is opened with url: 'www.amazon.com'
+
+31-01-2024T18:45:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+31-01-2024T18:45:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-01-2024T18:45:38 - [MESSAGE][PASSED] - Browser is opened with url: 'www.amazon.com'
+
+31-01-2024T18:45:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+31-01-2024T18:45:38 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+31-01-2024T18:45:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+31-01-2024T18:45:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-01-2024T18:45:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+31-01-2024T18:45:40 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+31-01-2024T18:45:41 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+31-01-2024T18:45:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in")): Object: 'Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' is clicked on
+
+31-01-2024T18:45:50 - [MESSAGE][PASSED] - Object: 'Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' is clicked on
+
+31-01-2024T18:45:50 - [TEST_STEP][PASSED] - setText(findTestObject("DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/input_email"), USERNAME): Text 'tirumala1643@gmail.com' is set on object 'Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/input_email'
+
+31-01-2024T18:45:52 - [MESSAGE][PASSED] - Text 'tirumala1643@gmail.com' is set on object 'Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/input_email'
+
+31-01-2024T18:45:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/inputcontinue")): Object: 'Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+31-01-2024T18:45:55 - [MESSAGE][PASSED] - Object: 'Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+31-01-2024T18:45:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/input_password"), PASSWORD): Text 'Tiru43@@' is set on object 'Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/input_password'
+
+31-01-2024T18:45:56 - [MESSAGE][PASSED] - Text 'Tiru43@@' is set on object 'Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/input_password'
+
+31-01-2024T18:45:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/inputsignInSubmit")): Object: 'Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+31-01-2024T18:45:56 - [MESSAGE][PASSED] - Object: 'Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+31-01-2024T18:45:56 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+31-01-2024T18:45:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+31-01-2024T18:45:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AmazonLogin_Page/TC_SearchField_002" time="36.32" classname="Test Cases/AmazonLogin_Page/TC_SearchField_002" status="PASSED">
+         <system-out><![CDATA[31-01-2024T18:45:57 - [TEST_CASE][PASSED] - Test Cases/AmazonLogin_Page/TC_SearchField_002: Test Cases/AmazonLogin_Page/TC_SearchField_002
+
+31-01-2024T18:45:57 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Browser is opened with url: 'www.amazon.com'
+
+31-01-2024T18:45:57 - [TEST_STEP][PASSED] - openBrowser("www.amazon.com"): Browser is opened with url: 'www.amazon.com'
+
+31-01-2024T18:45:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+31-01-2024T18:45:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-01-2024T18:46:00 - [MESSAGE][PASSED] - Browser is opened with url: 'www.amazon.com'
+
+31-01-2024T18:46:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+31-01-2024T18:46:00 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+31-01-2024T18:46:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+31-01-2024T18:46:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-01-2024T18:46:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+31-01-2024T18:46:02 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+31-01-2024T18:46:03 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+31-01-2024T18:46:03 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+31-01-2024T18:46:04 - [MESSAGE][PASSED] - Refresh successfully
+
+31-01-2024T18:46:04 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+31-01-2024T18:46:14 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+31-01-2024T18:46:14 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("SearchField/Validate_SearchField/SearchField_OR_002/All_Departments"), category, true): All options with label 'Automotive' are selected in object 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/All_Departments'  using regular expression
+
+31-01-2024T18:46:16 - [MESSAGE][PASSED] - All options with label 'Automotive' are selected in object 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/All_Departments'  using regular expression
+
+31-01-2024T18:46:16 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+31-01-2024T18:46:26 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+31-01-2024T18:46:26 - [TEST_STEP][PASSED] - setText(findTestObject("SearchField/Validate_SearchField/SearchField_OR_002/Search_txt_field"), item): Text 'Paint & Paint Supplies' is set on object 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/Search_txt_field'
+
+31-01-2024T18:46:27 - [MESSAGE][PASSED] - Text 'Paint & Paint Supplies' is set on object 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/Search_txt_field'
+
+31-01-2024T18:46:27 - [TEST_STEP][PASSED] - click(findTestObject("SearchField/Validate_SearchField/SearchField_OR_002/iSearch_btn")): Object: 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/iSearch_btn' is clicked on
+
+31-01-2024T18:46:33 - [MESSAGE][PASSED] - Object: 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/iSearch_btn' is clicked on
+
+31-01-2024T18:46:33 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+31-01-2024T18:46:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+31-01-2024T18:46:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AmazonLogin_Page/TC_SearchField_002" time="32.935" classname="Test Cases/AmazonLogin_Page/TC_SearchField_002" status="PASSED">
+         <system-out><![CDATA[31-01-2024T18:46:34 - [TEST_CASE][PASSED] - Test Cases/AmazonLogin_Page/TC_SearchField_002: Test Cases/AmazonLogin_Page/TC_SearchField_002
+
+31-01-2024T18:46:34 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Browser is opened with url: 'www.amazon.com'
+
+31-01-2024T18:46:34 - [TEST_STEP][PASSED] - openBrowser("www.amazon.com"): Browser is opened with url: 'www.amazon.com'
+
+31-01-2024T18:46:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+31-01-2024T18:46:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-01-2024T18:46:36 - [MESSAGE][PASSED] - Browser is opened with url: 'www.amazon.com'
+
+31-01-2024T18:46:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+31-01-2024T18:46:36 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+31-01-2024T18:46:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+31-01-2024T18:46:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-01-2024T18:46:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+31-01-2024T18:46:37 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+31-01-2024T18:46:39 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+31-01-2024T18:46:39 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+31-01-2024T18:46:39 - [MESSAGE][PASSED] - Refresh successfully
+
+31-01-2024T18:46:39 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+31-01-2024T18:46:49 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+31-01-2024T18:46:49 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("SearchField/Validate_SearchField/SearchField_OR_002/All_Departments"), category, true): All options with label 'Books' are selected in object 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/All_Departments'  using regular expression
+
+31-01-2024T18:46:50 - [MESSAGE][PASSED] - All options with label 'Books' are selected in object 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/All_Departments'  using regular expression
+
+31-01-2024T18:46:50 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+31-01-2024T18:47:00 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+31-01-2024T18:47:00 - [TEST_STEP][PASSED] - setText(findTestObject("SearchField/Validate_SearchField/SearchField_OR_002/Search_txt_field"), item): Text 'Da Vinci code' is set on object 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/Search_txt_field'
+
+31-01-2024T18:47:01 - [MESSAGE][PASSED] - Text 'Da Vinci code' is set on object 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/Search_txt_field'
+
+31-01-2024T18:47:01 - [TEST_STEP][PASSED] - click(findTestObject("SearchField/Validate_SearchField/SearchField_OR_002/iSearch_btn")): Object: 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/iSearch_btn' is clicked on
+
+31-01-2024T18:47:06 - [MESSAGE][PASSED] - Object: 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/iSearch_btn' is clicked on
+
+31-01-2024T18:47:06 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+31-01-2024T18:47:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+31-01-2024T18:47:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AmazonLogin_Page/TC_SearchField_002" time="34.343" classname="Test Cases/AmazonLogin_Page/TC_SearchField_002" status="PASSED">
+         <system-out><![CDATA[31-01-2024T18:47:06 - [TEST_CASE][PASSED] - Test Cases/AmazonLogin_Page/TC_SearchField_002: Test Cases/AmazonLogin_Page/TC_SearchField_002
+
+31-01-2024T18:47:06 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Browser is opened with url: 'www.amazon.com'
+
+31-01-2024T18:47:06 - [TEST_STEP][PASSED] - openBrowser("www.amazon.com"): Browser is opened with url: 'www.amazon.com'
+
+31-01-2024T18:47:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+31-01-2024T18:47:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-01-2024T18:47:09 - [MESSAGE][PASSED] - Browser is opened with url: 'www.amazon.com'
+
+31-01-2024T18:47:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+31-01-2024T18:47:09 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+31-01-2024T18:47:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+31-01-2024T18:47:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-01-2024T18:47:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+31-01-2024T18:47:11 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+31-01-2024T18:47:13 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+31-01-2024T18:47:13 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+31-01-2024T18:47:13 - [MESSAGE][PASSED] - Refresh successfully
+
+31-01-2024T18:47:13 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+31-01-2024T18:47:23 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+31-01-2024T18:47:23 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("SearchField/Validate_SearchField/SearchField_OR_002/All_Departments"), category, true): All options with label 'Computers' are selected in object 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/All_Departments'  using regular expression
+
+31-01-2024T18:47:24 - [MESSAGE][PASSED] - All options with label 'Computers' are selected in object 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/All_Departments'  using regular expression
+
+31-01-2024T18:47:24 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+31-01-2024T18:47:34 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+31-01-2024T18:47:34 - [TEST_STEP][PASSED] - setText(findTestObject("SearchField/Validate_SearchField/SearchField_OR_002/Search_txt_field"), item): Text 'Monitors' is set on object 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/Search_txt_field'
+
+31-01-2024T18:47:35 - [MESSAGE][PASSED] - Text 'Monitors' is set on object 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/Search_txt_field'
+
+31-01-2024T18:47:35 - [TEST_STEP][PASSED] - click(findTestObject("SearchField/Validate_SearchField/SearchField_OR_002/iSearch_btn")): Object: 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/iSearch_btn' is clicked on
+
+31-01-2024T18:47:40 - [MESSAGE][PASSED] - Object: 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/iSearch_btn' is clicked on
+
+31-01-2024T18:47:40 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+31-01-2024T18:47:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+31-01-2024T18:47:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AmazonLogin_Page/TC_SearchField_002" time="37.007" classname="Test Cases/AmazonLogin_Page/TC_SearchField_002" status="PASSED">
+         <system-out><![CDATA[31-01-2024T18:47:41 - [TEST_CASE][PASSED] - Test Cases/AmazonLogin_Page/TC_SearchField_002: Test Cases/AmazonLogin_Page/TC_SearchField_002
+
+31-01-2024T18:47:41 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Browser is opened with url: 'www.amazon.com'
+
+31-01-2024T18:47:41 - [TEST_STEP][PASSED] - openBrowser("www.amazon.com"): Browser is opened with url: 'www.amazon.com'
+
+31-01-2024T18:47:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+31-01-2024T18:47:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-01-2024T18:47:43 - [MESSAGE][PASSED] - Browser is opened with url: 'www.amazon.com'
+
+31-01-2024T18:47:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+31-01-2024T18:47:43 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+31-01-2024T18:47:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+31-01-2024T18:47:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-01-2024T18:47:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+31-01-2024T18:47:45 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+31-01-2024T18:47:46 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+31-01-2024T18:47:46 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+31-01-2024T18:47:47 - [MESSAGE][PASSED] - Refresh successfully
+
+31-01-2024T18:47:47 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+31-01-2024T18:47:57 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+31-01-2024T18:47:57 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("SearchField/Validate_SearchField/SearchField_OR_002/All_Departments"), category, true): All options with label 'Digital Music' are selected in object 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/All_Departments'  using regular expression
+
+31-01-2024T18:48:01 - [MESSAGE][PASSED] - All options with label 'Digital Music' are selected in object 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/All_Departments'  using regular expression
+
+31-01-2024T18:48:01 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+31-01-2024T18:48:11 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+31-01-2024T18:48:11 - [TEST_STEP][PASSED] - setText(findTestObject("SearchField/Validate_SearchField/SearchField_OR_002/Search_txt_field"), item): Text 'Classical' is set on object 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/Search_txt_field'
+
+31-01-2024T18:48:12 - [MESSAGE][PASSED] - Text 'Classical' is set on object 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/Search_txt_field'
+
+31-01-2024T18:48:12 - [TEST_STEP][PASSED] - click(findTestObject("SearchField/Validate_SearchField/SearchField_OR_002/iSearch_btn")): Object: 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/iSearch_btn' is clicked on
+
+31-01-2024T18:48:17 - [MESSAGE][PASSED] - Object: 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/iSearch_btn' is clicked on
+
+31-01-2024T18:48:17 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+31-01-2024T18:48:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+31-01-2024T18:48:18 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/AmazonLogin_Page/TC_SearchField_002" time="33.858" classname="Test Cases/AmazonLogin_Page/TC_SearchField_002" status="PASSED">
+         <system-out><![CDATA[31-01-2024T18:48:18 - [TEST_CASE][PASSED] - Test Cases/AmazonLogin_Page/TC_SearchField_002: Test Cases/AmazonLogin_Page/TC_SearchField_002
+
+31-01-2024T18:48:18 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Browser is opened with url: 'www.amazon.com'
+
+31-01-2024T18:48:18 - [TEST_STEP][PASSED] - openBrowser("www.amazon.com"): Browser is opened with url: 'www.amazon.com'
+
+31-01-2024T18:48:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+31-01-2024T18:48:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-01-2024T18:48:21 - [MESSAGE][PASSED] - Browser is opened with url: 'www.amazon.com'
+
+31-01-2024T18:48:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+31-01-2024T18:48:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+31-01-2024T18:48:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+31-01-2024T18:48:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-01-2024T18:48:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+31-01-2024T18:48:22 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+31-01-2024T18:48:23 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+31-01-2024T18:48:23 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+31-01-2024T18:48:24 - [MESSAGE][PASSED] - Refresh successfully
+
+31-01-2024T18:48:24 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+31-01-2024T18:48:34 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+31-01-2024T18:48:34 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("SearchField/Validate_SearchField/SearchField_OR_002/All_Departments"), category, true): All options with label 'Home & Kitchen' are selected in object 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/All_Departments'  using regular expression
+
+31-01-2024T18:48:35 - [MESSAGE][PASSED] - All options with label 'Home & Kitchen' are selected in object 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/All_Departments'  using regular expression
+
+31-01-2024T18:48:35 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+31-01-2024T18:48:45 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+31-01-2024T18:48:45 - [TEST_STEP][PASSED] - setText(findTestObject("SearchField/Validate_SearchField/SearchField_OR_002/Search_txt_field"), item): Text ' Furniture' is set on object 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/Search_txt_field'
+
+31-01-2024T18:48:46 - [MESSAGE][PASSED] - Text ' Furniture' is set on object 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/Search_txt_field'
+
+31-01-2024T18:48:46 - [TEST_STEP][PASSED] - click(findTestObject("SearchField/Validate_SearchField/SearchField_OR_002/iSearch_btn")): Object: 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/iSearch_btn' is clicked on
+
+31-01-2024T18:48:51 - [MESSAGE][PASSED] - Object: 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/iSearch_btn' is clicked on
+
+31-01-2024T18:48:51 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+31-01-2024T18:48:51 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+31-01-2024T18:48:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[31-01-2024T18:45:34 - [TEST_SUITE][PASSED] - TS_LOGIN_SearchField: Test Cases/AmazonLogin_Page/TC_SearchField_002]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+   <testsuite name="TL_TS_SearchField_Validation" tests="5" failures="0" errors="0" time="161.184" skipped="0" timestamp="31-01-2024T18:49:03" hostname="TIRUM - Tiru43" id="Test Suites/Amazon_Login_TS/TL_TS_SearchField_Validation">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\TIRUM\\git\\SI-GuidedProject-705242-1704854759\\Reports\\20240131_184523\\Amazon_Login_TS\\TL_TS_SearchField_Validation\\20240131_184526"/>
+         <property name="logFiles" value="C:\\Users\\TIRUM\\git\\SI-GuidedProject-705242-1704854759\\Reports\\20240131_184523\\Amazon_Login_TS\\TL_TS_SearchField_Validation\\20240131_184526\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="TIRUM - Tiru43"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 121.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.104"/>
+         <property name="sessionId" value="90e05a30e9b1f2e0d4c56f8bb187d91c"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/TestListener/Amazon_ ValidateSearchFieldItem _TListener" time="35.622" classname="Test Cases/TestListener/Amazon_ ValidateSearchFieldItem _TListener" status="PASSED">
+         <system-out><![CDATA[31-01-2024T18:49:03 - [TEST_CASE][PASSED] - Test Cases/TestListener/Amazon_ ValidateSearchFieldItem _TListener: Test Cases/TestListener/Amazon_ ValidateSearchFieldItem _TListener
+
+31-01-2024T18:49:03 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Browser is opened with url: 'www.amazon.com'
+
+31-01-2024T18:49:03 - [TEST_STEP][PASSED] - openBrowser("www.amazon.com"): Browser is opened with url: 'www.amazon.com'
+
+31-01-2024T18:49:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+31-01-2024T18:49:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-01-2024T18:49:07 - [MESSAGE][PASSED] - Browser is opened with url: 'www.amazon.com'
+
+31-01-2024T18:49:07 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+31-01-2024T18:49:08 - [MESSAGE][PASSED] - Refresh successfully
+
+31-01-2024T18:49:08 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+31-01-2024T18:49:18 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+31-01-2024T18:49:18 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("SearchField/Validate_SearchField/SearchField_OR_002/All_Departments"), category, true): All options with label 'Automotive' are selected in object 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/All_Departments'  using regular expression
+
+31-01-2024T18:49:20 - [MESSAGE][PASSED] - All options with label 'Automotive' are selected in object 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/All_Departments'  using regular expression
+
+31-01-2024T18:49:20 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+31-01-2024T18:49:30 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+31-01-2024T18:49:30 - [TEST_STEP][PASSED] - setText(findTestObject("SearchField/Validate_SearchField/SearchField_OR_002/Search_txt_field"), item): Text 'Paint & Paint Supplies' is set on object 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/Search_txt_field'
+
+31-01-2024T18:49:31 - [MESSAGE][PASSED] - Text 'Paint & Paint Supplies' is set on object 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/Search_txt_field'
+
+31-01-2024T18:49:31 - [TEST_STEP][PASSED] - click(findTestObject("SearchField/Validate_SearchField/SearchField_OR_002/iSearch_btn")): Object: 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/iSearch_btn' is clicked on
+
+31-01-2024T18:49:38 - [MESSAGE][PASSED] - Object: 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/iSearch_btn' is clicked on
+
+31-01-2024T18:49:38 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+31-01-2024T18:49:38 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+31-01-2024T18:49:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestListener/Amazon_ ValidateSearchFieldItem _TListener" time="30.576" classname="Test Cases/TestListener/Amazon_ ValidateSearchFieldItem _TListener" status="PASSED">
+         <system-out><![CDATA[31-01-2024T18:49:39 - [TEST_CASE][PASSED] - Test Cases/TestListener/Amazon_ ValidateSearchFieldItem _TListener: Test Cases/TestListener/Amazon_ ValidateSearchFieldItem _TListener
+
+31-01-2024T18:49:39 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Browser is opened with url: 'www.amazon.com'
+
+31-01-2024T18:49:39 - [TEST_STEP][PASSED] - openBrowser("www.amazon.com"): Browser is opened with url: 'www.amazon.com'
+
+31-01-2024T18:49:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+31-01-2024T18:49:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-01-2024T18:49:42 - [MESSAGE][PASSED] - Browser is opened with url: 'www.amazon.com'
+
+31-01-2024T18:49:42 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+31-01-2024T18:49:43 - [MESSAGE][PASSED] - Refresh successfully
+
+31-01-2024T18:49:43 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+31-01-2024T18:49:53 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+31-01-2024T18:49:53 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("SearchField/Validate_SearchField/SearchField_OR_002/All_Departments"), category, true): All options with label 'Books' are selected in object 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/All_Departments'  using regular expression
+
+31-01-2024T18:49:54 - [MESSAGE][PASSED] - All options with label 'Books' are selected in object 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/All_Departments'  using regular expression
+
+31-01-2024T18:49:54 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+31-01-2024T18:50:04 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+31-01-2024T18:50:04 - [TEST_STEP][PASSED] - setText(findTestObject("SearchField/Validate_SearchField/SearchField_OR_002/Search_txt_field"), item): Text 'Da Vinci code' is set on object 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/Search_txt_field'
+
+31-01-2024T18:50:05 - [MESSAGE][PASSED] - Text 'Da Vinci code' is set on object 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/Search_txt_field'
+
+31-01-2024T18:50:05 - [TEST_STEP][PASSED] - click(findTestObject("SearchField/Validate_SearchField/SearchField_OR_002/iSearch_btn")): Object: 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/iSearch_btn' is clicked on
+
+31-01-2024T18:50:09 - [MESSAGE][PASSED] - Object: 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/iSearch_btn' is clicked on
+
+31-01-2024T18:50:09 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+31-01-2024T18:50:09 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+31-01-2024T18:50:09 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestListener/Amazon_ ValidateSearchFieldItem _TListener" time="31.089" classname="Test Cases/TestListener/Amazon_ ValidateSearchFieldItem _TListener" status="PASSED">
+         <system-out><![CDATA[31-01-2024T18:50:09 - [TEST_CASE][PASSED] - Test Cases/TestListener/Amazon_ ValidateSearchFieldItem _TListener: Test Cases/TestListener/Amazon_ ValidateSearchFieldItem _TListener
+
+31-01-2024T18:50:09 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Browser is opened with url: 'www.amazon.com'
+
+31-01-2024T18:50:09 - [TEST_STEP][PASSED] - openBrowser("www.amazon.com"): Browser is opened with url: 'www.amazon.com'
+
+31-01-2024T18:50:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+31-01-2024T18:50:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-01-2024T18:50:12 - [MESSAGE][PASSED] - Browser is opened with url: 'www.amazon.com'
+
+31-01-2024T18:50:12 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+31-01-2024T18:50:13 - [MESSAGE][PASSED] - Refresh successfully
+
+31-01-2024T18:50:13 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+31-01-2024T18:50:23 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+31-01-2024T18:50:23 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("SearchField/Validate_SearchField/SearchField_OR_002/All_Departments"), category, true): All options with label 'Computers' are selected in object 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/All_Departments'  using regular expression
+
+31-01-2024T18:50:24 - [MESSAGE][PASSED] - All options with label 'Computers' are selected in object 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/All_Departments'  using regular expression
+
+31-01-2024T18:50:24 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+31-01-2024T18:50:34 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+31-01-2024T18:50:34 - [TEST_STEP][PASSED] - setText(findTestObject("SearchField/Validate_SearchField/SearchField_OR_002/Search_txt_field"), item): Text 'Monitors' is set on object 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/Search_txt_field'
+
+31-01-2024T18:50:34 - [MESSAGE][PASSED] - Text 'Monitors' is set on object 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/Search_txt_field'
+
+31-01-2024T18:50:34 - [TEST_STEP][PASSED] - click(findTestObject("SearchField/Validate_SearchField/SearchField_OR_002/iSearch_btn")): Object: 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/iSearch_btn' is clicked on
+
+31-01-2024T18:50:40 - [MESSAGE][PASSED] - Object: 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/iSearch_btn' is clicked on
+
+31-01-2024T18:50:40 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+31-01-2024T18:50:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+31-01-2024T18:50:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestListener/Amazon_ ValidateSearchFieldItem _TListener" time="32.795" classname="Test Cases/TestListener/Amazon_ ValidateSearchFieldItem _TListener" status="PASSED">
+         <system-out><![CDATA[31-01-2024T18:50:41 - [TEST_CASE][PASSED] - Test Cases/TestListener/Amazon_ ValidateSearchFieldItem _TListener: Test Cases/TestListener/Amazon_ ValidateSearchFieldItem _TListener
+
+31-01-2024T18:50:41 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Browser is opened with url: 'www.amazon.com'
+
+31-01-2024T18:50:41 - [TEST_STEP][PASSED] - openBrowser("www.amazon.com"): Browser is opened with url: 'www.amazon.com'
+
+31-01-2024T18:50:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+31-01-2024T18:50:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-01-2024T18:50:43 - [MESSAGE][PASSED] - Browser is opened with url: 'www.amazon.com'
+
+31-01-2024T18:50:43 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+31-01-2024T18:50:44 - [MESSAGE][PASSED] - Refresh successfully
+
+31-01-2024T18:50:44 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+31-01-2024T18:50:54 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+31-01-2024T18:50:54 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("SearchField/Validate_SearchField/SearchField_OR_002/All_Departments"), category, true): All options with label 'Digital Music' are selected in object 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/All_Departments'  using regular expression
+
+31-01-2024T18:50:56 - [MESSAGE][PASSED] - All options with label 'Digital Music' are selected in object 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/All_Departments'  using regular expression
+
+31-01-2024T18:50:56 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+31-01-2024T18:51:06 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+31-01-2024T18:51:06 - [TEST_STEP][PASSED] - setText(findTestObject("SearchField/Validate_SearchField/SearchField_OR_002/Search_txt_field"), item): Text 'Classical' is set on object 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/Search_txt_field'
+
+31-01-2024T18:51:07 - [MESSAGE][PASSED] - Text 'Classical' is set on object 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/Search_txt_field'
+
+31-01-2024T18:51:07 - [TEST_STEP][PASSED] - click(findTestObject("SearchField/Validate_SearchField/SearchField_OR_002/iSearch_btn")): Object: 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/iSearch_btn' is clicked on
+
+31-01-2024T18:51:13 - [MESSAGE][PASSED] - Object: 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/iSearch_btn' is clicked on
+
+31-01-2024T18:51:13 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+31-01-2024T18:51:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+31-01-2024T18:51:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TestListener/Amazon_ ValidateSearchFieldItem _TListener" time="30.688" classname="Test Cases/TestListener/Amazon_ ValidateSearchFieldItem _TListener" status="PASSED">
+         <system-out><![CDATA[31-01-2024T18:51:13 - [TEST_CASE][PASSED] - Test Cases/TestListener/Amazon_ ValidateSearchFieldItem _TListener: Test Cases/TestListener/Amazon_ ValidateSearchFieldItem _TListener
+
+31-01-2024T18:51:13 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Browser is opened with url: 'www.amazon.com'
+
+31-01-2024T18:51:13 - [TEST_STEP][PASSED] - openBrowser("www.amazon.com"): Browser is opened with url: 'www.amazon.com'
+
+31-01-2024T18:51:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+31-01-2024T18:51:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+31-01-2024T18:51:16 - [MESSAGE][PASSED] - Browser is opened with url: 'www.amazon.com'
+
+31-01-2024T18:51:16 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+31-01-2024T18:51:17 - [MESSAGE][PASSED] - Refresh successfully
+
+31-01-2024T18:51:17 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+31-01-2024T18:51:27 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+31-01-2024T18:51:27 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("SearchField/Validate_SearchField/SearchField_OR_002/All_Departments"), category, true): All options with label 'Home & Kitchen' are selected in object 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/All_Departments'  using regular expression
+
+31-01-2024T18:51:28 - [MESSAGE][PASSED] - All options with label 'Home & Kitchen' are selected in object 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/All_Departments'  using regular expression
+
+31-01-2024T18:51:28 - [TEST_STEP][PASSED] - delay(10): Delayed 10 second(s)
+
+31-01-2024T18:51:38 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+31-01-2024T18:51:38 - [TEST_STEP][PASSED] - setText(findTestObject("SearchField/Validate_SearchField/SearchField_OR_002/Search_txt_field"), item): Text ' Furniture' is set on object 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/Search_txt_field'
+
+31-01-2024T18:51:39 - [MESSAGE][PASSED] - Text ' Furniture' is set on object 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/Search_txt_field'
+
+31-01-2024T18:51:39 - [TEST_STEP][PASSED] - click(findTestObject("SearchField/Validate_SearchField/SearchField_OR_002/iSearch_btn")): Object: 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/iSearch_btn' is clicked on
+
+31-01-2024T18:51:44 - [MESSAGE][PASSED] - Object: 'Object Repository/SearchField/Validate_SearchField/SearchField_OR_002/iSearch_btn' is clicked on
+
+31-01-2024T18:51:44 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+31-01-2024T18:51:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+31-01-2024T18:51:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[31-01-2024T18:49:03 - [TEST_SUITE][PASSED] - TL_TS_SearchField_Validation: Test Cases/TestListener/Amazon_ ValidateSearchFieldItem _TListener]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

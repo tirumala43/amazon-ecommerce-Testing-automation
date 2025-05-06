@@ -1,0 +1,73 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_LOGIN_SearchField,Chrome 121.0.0.0,,,31-01-2024 18:45:34,31-01-2024 18:48:52,3m - 17.870s,PASSED
+,,,,,,,
+Test Cases/AmazonLogin_Page/TC_Amazon_login_001,Chrome 121.0.0.0,Data driven testing to login into Amazon website,,31-01-2024 18:45:34,31-01-2024 18:45:57,23.006s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,31-01-2024 18:45:34,31-01-2024 18:45:38,3.996s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,31-01-2024 18:45:38,31-01-2024 18:45:40,1.407s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,31-01-2024 18:45:40,31-01-2024 18:45:41,1.029s,PASSED
+"click(findTestObject(""Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Chrome 121.0.0.0,,,31-01-2024 18:45:41,31-01-2024 18:45:50,9.198s,PASSED
+"setText(findTestObject(""DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/input_email""), USERNAME)",Chrome 121.0.0.0,,,31-01-2024 18:45:50,31-01-2024 18:45:52,1.999s,PASSED
+"click(findTestObject(""Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/inputcontinue""))",Chrome 121.0.0.0,,,31-01-2024 18:45:52,31-01-2024 18:45:55,2.617s,PASSED
+"setText(findTestObject(""Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/input_password""), PASSWORD)",Chrome 121.0.0.0,,,31-01-2024 18:45:55,31-01-2024 18:45:56,1.484s,PASSED
+"click(findTestObject(""Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/inputsignInSubmit""))",Chrome 121.0.0.0,,,31-01-2024 18:45:56,31-01-2024 18:45:56,0.439s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,31-01-2024 18:45:56,31-01-2024 18:45:57,0.671s,PASSED
+,,,,,,,
+Test Cases/AmazonLogin_Page/TC_SearchField_002,Chrome 121.0.0.0,validate drop down button to search different categories of product,,31-01-2024 18:45:57,31-01-2024 18:46:33,36.320s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,31-01-2024 18:45:57,31-01-2024 18:46:00,2.898s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,31-01-2024 18:46:00,31-01-2024 18:46:02,1.528s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,31-01-2024 18:46:02,31-01-2024 18:46:03,1.632s,PASSED
+refresh(),Chrome 121.0.0.0,,,31-01-2024 18:46:03,31-01-2024 18:46:04,0.504s,PASSED
+delay(10),Chrome 121.0.0.0,,,31-01-2024 18:46:04,31-01-2024 18:46:14,10.031s,PASSED
+"selectOptionByLabel(findTestObject(""SearchField/Validate_SearchField/SearchField_OR_002/All_Departments""), category, true)",Chrome 121.0.0.0,,,31-01-2024 18:46:14,31-01-2024 18:46:16,2.468s,PASSED
+delay(10),Chrome 121.0.0.0,,,31-01-2024 18:46:16,31-01-2024 18:46:26,10.006s,PASSED
+"setText(findTestObject(""SearchField/Validate_SearchField/SearchField_OR_002/Search_txt_field""), item)",Chrome 121.0.0.0,,,31-01-2024 18:46:26,31-01-2024 18:46:27,0.749s,PASSED
+"click(findTestObject(""SearchField/Validate_SearchField/SearchField_OR_002/iSearch_btn""))",Chrome 121.0.0.0,,,31-01-2024 18:46:27,31-01-2024 18:46:33,5.967s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,31-01-2024 18:46:33,31-01-2024 18:46:33,0.420s,PASSED
+,,,,,,,
+Test Cases/AmazonLogin_Page/TC_SearchField_002,Chrome 121.0.0.0,validate drop down button to search different categories of product,,31-01-2024 18:46:34,31-01-2024 18:47:06,32.935s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,31-01-2024 18:46:34,31-01-2024 18:46:36,2.083s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,31-01-2024 18:46:36,31-01-2024 18:46:37,1.326s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,31-01-2024 18:46:37,31-01-2024 18:46:39,1.598s,PASSED
+refresh(),Chrome 121.0.0.0,,,31-01-2024 18:46:39,31-01-2024 18:46:39,0.476s,PASSED
+delay(10),Chrome 121.0.0.0,,,31-01-2024 18:46:39,31-01-2024 18:46:49,10.005s,PASSED
+"selectOptionByLabel(findTestObject(""SearchField/Validate_SearchField/SearchField_OR_002/All_Departments""), category, true)",Chrome 121.0.0.0,,,31-01-2024 18:46:49,31-01-2024 18:46:50,1.202s,PASSED
+delay(10),Chrome 121.0.0.0,,,31-01-2024 18:46:50,31-01-2024 18:47:00,10.017s,PASSED
+"setText(findTestObject(""SearchField/Validate_SearchField/SearchField_OR_002/Search_txt_field""), item)",Chrome 121.0.0.0,,,31-01-2024 18:47:00,31-01-2024 18:47:01,0.703s,PASSED
+"click(findTestObject(""SearchField/Validate_SearchField/SearchField_OR_002/iSearch_btn""))",Chrome 121.0.0.0,,,31-01-2024 18:47:01,31-01-2024 18:47:06,5.059s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,31-01-2024 18:47:06,31-01-2024 18:47:06,0.451s,PASSED
+,,,,,,,
+Test Cases/AmazonLogin_Page/TC_SearchField_002,Chrome 121.0.0.0,validate drop down button to search different categories of product,,31-01-2024 18:47:06,31-01-2024 18:47:41,34.343s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,31-01-2024 18:47:06,31-01-2024 18:47:09,2.801s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,31-01-2024 18:47:09,31-01-2024 18:47:11,1.426s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,31-01-2024 18:47:11,31-01-2024 18:47:13,1.779s,PASSED
+refresh(),Chrome 121.0.0.0,,,31-01-2024 18:47:13,31-01-2024 18:47:13,0.632s,PASSED
+delay(10),Chrome 121.0.0.0,,,31-01-2024 18:47:13,31-01-2024 18:47:23,10.009s,PASSED
+"selectOptionByLabel(findTestObject(""SearchField/Validate_SearchField/SearchField_OR_002/All_Departments""), category, true)",Chrome 121.0.0.0,,,31-01-2024 18:47:23,31-01-2024 18:47:24,1.215s,PASSED
+delay(10),Chrome 121.0.0.0,,,31-01-2024 18:47:24,31-01-2024 18:47:34,10.014s,PASSED
+"setText(findTestObject(""SearchField/Validate_SearchField/SearchField_OR_002/Search_txt_field""), item)",Chrome 121.0.0.0,,,31-01-2024 18:47:34,31-01-2024 18:47:35,0.693s,PASSED
+"click(findTestObject(""SearchField/Validate_SearchField/SearchField_OR_002/iSearch_btn""))",Chrome 121.0.0.0,,,31-01-2024 18:47:35,31-01-2024 18:47:40,5.275s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,31-01-2024 18:47:40,31-01-2024 18:47:41,0.483s,PASSED
+,,,,,,,
+Test Cases/AmazonLogin_Page/TC_SearchField_002,Chrome 121.0.0.0,validate drop down button to search different categories of product,,31-01-2024 18:47:41,31-01-2024 18:48:18,37.007s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,31-01-2024 18:47:41,31-01-2024 18:47:43,2.192s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,31-01-2024 18:47:43,31-01-2024 18:47:45,1.518s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,31-01-2024 18:47:45,31-01-2024 18:47:46,1.384s,PASSED
+refresh(),Chrome 121.0.0.0,,,31-01-2024 18:47:46,31-01-2024 18:47:47,0.633s,PASSED
+delay(10),Chrome 121.0.0.0,,,31-01-2024 18:47:47,31-01-2024 18:47:57,10.013s,PASSED
+"selectOptionByLabel(findTestObject(""SearchField/Validate_SearchField/SearchField_OR_002/All_Departments""), category, true)",Chrome 121.0.0.0,,,31-01-2024 18:47:57,31-01-2024 18:48:01,4.835s,PASSED
+delay(10),Chrome 121.0.0.0,,,31-01-2024 18:48:01,31-01-2024 18:48:11,10.014s,PASSED
+"setText(findTestObject(""SearchField/Validate_SearchField/SearchField_OR_002/Search_txt_field""), item)",Chrome 121.0.0.0,,,31-01-2024 18:48:11,31-01-2024 18:48:12,0.687s,PASSED
+"click(findTestObject(""SearchField/Validate_SearchField/SearchField_OR_002/iSearch_btn""))",Chrome 121.0.0.0,,,31-01-2024 18:48:12,31-01-2024 18:48:17,5.253s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,31-01-2024 18:48:17,31-01-2024 18:48:18,0.453s,PASSED
+,,,,,,,
+Test Cases/AmazonLogin_Page/TC_SearchField_002,Chrome 121.0.0.0,validate drop down button to search different categories of product,,31-01-2024 18:48:18,31-01-2024 18:48:52,33.858s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,31-01-2024 18:48:18,31-01-2024 18:48:21,2.716s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,31-01-2024 18:48:21,31-01-2024 18:48:22,1.371s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,31-01-2024 18:48:22,31-01-2024 18:48:23,1.032s,PASSED
+refresh(),Chrome 121.0.0.0,,,31-01-2024 18:48:23,31-01-2024 18:48:24,0.493s,PASSED
+delay(10),Chrome 121.0.0.0,,,31-01-2024 18:48:24,31-01-2024 18:48:34,10.014s,PASSED
+"selectOptionByLabel(findTestObject(""SearchField/Validate_SearchField/SearchField_OR_002/All_Departments""), category, true)",Chrome 121.0.0.0,,,31-01-2024 18:48:34,31-01-2024 18:48:35,1.454s,PASSED
+delay(10),Chrome 121.0.0.0,,,31-01-2024 18:48:35,31-01-2024 18:48:45,10.009s,PASSED
+"setText(findTestObject(""SearchField/Validate_SearchField/SearchField_OR_002/Search_txt_field""), item)",Chrome 121.0.0.0,,,31-01-2024 18:48:45,31-01-2024 18:48:46,0.742s,PASSED
+"click(findTestObject(""SearchField/Validate_SearchField/SearchField_OR_002/iSearch_btn""))",Chrome 121.0.0.0,,,31-01-2024 18:48:46,31-01-2024 18:48:51,5.577s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,31-01-2024 18:48:51,31-01-2024 18:48:52,0.426s,PASSED

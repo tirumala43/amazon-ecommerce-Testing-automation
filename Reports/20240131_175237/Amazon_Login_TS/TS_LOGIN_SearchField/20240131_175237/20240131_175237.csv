@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_LOGIN_SearchField,Chrome 121.0.0.0,,,31-01-2024 17:52:43,31-01-2024 17:53:06,23.197s,PASSED
+,,,,,,,
+Test Cases/AmazonLogin_Page/TC_Amazon_login_001,Chrome 121.0.0.0,Data driven testing to login into Amazon website,,31-01-2024 17:52:43,31-01-2024 17:53:06,23.005s,PASSED
+"openBrowser("""")",Chrome 121.0.0.0,,,31-01-2024 17:52:43,31-01-2024 17:52:46,2.468s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 121.0.0.0,,,31-01-2024 17:52:46,31-01-2024 17:52:47,1.679s,PASSED
+"click(findTestObject(""Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in""))",Chrome 121.0.0.0,,,31-01-2024 17:52:47,31-01-2024 17:53:00,12.711s,PASSED
+"setText(findTestObject(""DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/input_email""), USERNAME)",Chrome 121.0.0.0,,,31-01-2024 17:53:00,31-01-2024 17:53:02,1.821s,PASSED
+"click(findTestObject(""Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/inputcontinue""))",Chrome 121.0.0.0,,,31-01-2024 17:53:02,31-01-2024 17:53:04,2.188s,PASSED
+"setText(findTestObject(""Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/input_password""), PASSWORD)",Chrome 121.0.0.0,,,31-01-2024 17:53:04,31-01-2024 17:53:05,1.477s,PASSED
+"click(findTestObject(""Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/inputsignInSubmit""))",Chrome 121.0.0.0,,,31-01-2024 17:53:05,31-01-2024 17:53:06,0.396s,PASSED

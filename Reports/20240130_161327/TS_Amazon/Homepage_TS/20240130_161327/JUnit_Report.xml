@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Homepage_TS" time="102.574" tests="2" failures="0" errors="0">
+   <testsuite name="Homepage_TS" tests="2" failures="0" errors="0" time="102.574" skipped="0" timestamp="30-01-2024T16:13:38" hostname="TIRUM - Tiru43" id="Test Suites/TS_Amazon/Homepage_TS">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\TIRUM\\git\\SI-GuidedProject-705242-1704854759\\Reports\\20240130_161327\\TS_Amazon\\Homepage_TS\\20240130_161327"/>
+         <property name="logFiles" value="C:\\Users\\TIRUM\\git\\SI-GuidedProject-705242-1704854759\\Reports\\20240130_161327\\TS_Amazon\\Homepage_TS\\20240130_161327\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\TIRUM\\git\\SI-GuidedProject-705242-1704854759\\Reports\\20240130_161327\\TS_Amazon\\Homepage_TS\\20240130_161327\\1706611462310.png"/>
+         <property name="hostName" value="TIRUM - Tiru43"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.101"/>
+         <property name="sessionId" value="2819eea0e7365aedd1ed7a5e948f6588"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/HOMEPAGE_TC/TC__002_Amazon_Username" time="32.61" classname="Test Cases/HOMEPAGE_TC/TC__002_Amazon_Username" status="PASSED">
+         <system-out><![CDATA[30-01-2024T16:14:22 - [TEST_CASE][PASSED] - Test Cases/HOMEPAGE_TC/TC__002_Amazon_Username: Test Cases/HOMEPAGE_TC/TC__002_Amazon_Username
+
+30-01-2024T16:14:22 - [TEST_STEP][PASSED] - callTestCase(findTestCase("DataDrivenTesting/DDT_Amazon_login_001"), ["USERNAME":"", "PASSWORD":""], STOP_ON_FAILURE): Call Test Case 'Test Cases/DataDrivenTesting/DDT_Amazon_login_001' successfully
+
+30-01-2024T16:14:22 - [TEST_CASE][PASSED] - Test Cases/DataDrivenTesting/DDT_Amazon_login_001: Test Cases/DataDrivenTesting/DDT_Amazon_login_001
+
+30-01-2024T16:14:22 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-01-2024T16:14:22 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+30-01-2024T16:14:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-01-2024T16:14:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-01-2024T16:14:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-01-2024T16:14:26 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+30-01-2024T16:14:27 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+30-01-2024T16:14:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in")): Object: 'Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' is clicked on
+
+30-01-2024T16:14:40 - [MESSAGE][PASSED] - Object: 'Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' is clicked on
+
+30-01-2024T16:14:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/input_email"), "tirumala1643@gmail.com"): Text 'tirumala1643@gmail.com' is set on object 'Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/input_email'
+
+30-01-2024T16:14:42 - [MESSAGE][PASSED] - Text 'tirumala1643@gmail.com' is set on object 'Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/input_email'
+
+30-01-2024T16:14:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/inputcontinue")): Object: 'Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+30-01-2024T16:14:45 - [MESSAGE][PASSED] - Object: 'Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+30-01-2024T16:14:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/input_password"), "zJunTcfE+7qVant9yaEiCw=="): Text ****** has been set on object 'Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/input_password'
+
+30-01-2024T16:14:47 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/input_password'
+
+30-01-2024T16:14:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/inputsignInSubmit")): Object: 'Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+30-01-2024T16:14:47 - [MESSAGE][PASSED] - Object: 'Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+30-01-2024T16:14:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/DataDrivenTesting/DDT_Amazon_login_001' successfully
+
+30-01-2024T16:14:47 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/?ref_=nav_ya_signin"): Navigate to 'https://www.amazon.com/?ref_=nav_ya_signin' successfully
+
+30-01-2024T16:14:52 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/?ref_=nav_ya_signin' successfully
+
+30-01-2024T16:14:52 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/HOMEPAGE_OR_TC__002/Page_Amazon.com. Spend less. Smile more/span_Hello, Gumma")): Object 'Object Repository/HOMEPAGE_OR_TC__002/Page_Amazon.com. Spend less. Smile more/span_Hello, Gumma' is visible
+
+30-01-2024T16:14:53 - [MESSAGE][PASSED] - Object 'Object Repository/HOMEPAGE_OR_TC__002/Page_Amazon.com. Spend less. Smile more/span_Hello, Gumma' is visible
+
+30-01-2024T16:14:53 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("Object Repository/HOMEPAGE_OR_TC__002/Page_Amazon.com. Spend less. Smile more/span_Hello, Gumma"), "Hello, Gumma"): Actual text and expected text of test object 'Object Repository/HOMEPAGE_OR_TC__002/Page_Amazon.com. Spend less. Smile more/span_Hello, Gumma' are matched.
+
+30-01-2024T16:14:53 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/HOMEPAGE_OR_TC__002/Page_Amazon.com. Spend less. Smile more/span_Hello, Gumma' are matched.
+
+30-01-2024T16:14:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-01-2024T16:14:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/HOMEPAGE_TC/TC__001_HomePage" time="25.601" classname="Test Cases/HOMEPAGE_TC/TC__001_HomePage" status="PASSED">
+         <system-out><![CDATA[30-01-2024T16:14:55 - [TEST_CASE][PASSED] - Test Cases/HOMEPAGE_TC/TC__001_HomePage: Test Cases/HOMEPAGE_TC/TC__001_HomePage
+
+30-01-2024T16:14:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("DataDrivenTesting/DDT_Amazon_login_001"), ["USERNAME":"", "PASSWORD":""], STOP_ON_FAILURE): Call Test Case 'Test Cases/DataDrivenTesting/DDT_Amazon_login_001' successfully
+
+30-01-2024T16:14:55 - [TEST_CASE][PASSED] - Test Cases/DataDrivenTesting/DDT_Amazon_login_001: Test Cases/DataDrivenTesting/DDT_Amazon_login_001
+
+30-01-2024T16:14:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-01-2024T16:14:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-01-2024T16:14:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-01-2024T16:14:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-01-2024T16:14:57 - [TEST_STEP][PASSED] - navigateToUrl("https://www.amazon.com/"): Navigate to 'https://www.amazon.com/' successfully
+
+30-01-2024T16:14:59 - [MESSAGE][PASSED] - Navigate to 'https://www.amazon.com/' successfully
+
+30-01-2024T16:14:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in")): Object: 'Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' is clicked on
+
+30-01-2024T16:15:09 - [MESSAGE][PASSED] - Object: 'Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' is clicked on
+
+30-01-2024T16:15:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/input_email"), "tirumala1643@gmail.com"): Text 'tirumala1643@gmail.com' is set on object 'Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/input_email'
+
+30-01-2024T16:15:11 - [MESSAGE][PASSED] - Text 'tirumala1643@gmail.com' is set on object 'Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/input_email'
+
+30-01-2024T16:15:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/inputcontinue")): Object: 'Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+30-01-2024T16:15:13 - [MESSAGE][PASSED] - Object: 'Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/inputcontinue' is clicked on
+
+30-01-2024T16:15:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/input_password"), "zJunTcfE+7qVant9yaEiCw=="): Text ****** has been set on object 'Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/input_password'
+
+30-01-2024T16:15:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/input_password'
+
+30-01-2024T16:15:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/inputsignInSubmit")): Object: 'Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+30-01-2024T16:15:15 - [MESSAGE][PASSED] - Object: 'Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon Sign-In/inputsignInSubmit' is clicked on
+
+30-01-2024T16:15:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/DataDrivenTesting/DDT_Amazon_login_001' successfully
+
+30-01-2024T16:15:15 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Amazon_login_OR/Page_Amazon Sign-In/Page_Amazon.com. Spend less. Smile more/a_us"), 0): Object 'Object Repository/Amazon_login_OR/Page_Amazon Sign-In/Page_Amazon.com. Spend less. Smile more/a_us' is present
+
+30-01-2024T16:15:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+30-01-2024T16:15:20 - [MESSAGE][PASSED] - Object 'Object Repository/Amazon_login_OR/Page_Amazon Sign-In/Page_Amazon.com. Spend less. Smile more/a_us' is present
+
+30-01-2024T16:15:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-01-2024T16:15:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[30-01-2024T16:13:38 - [TEST_SUITE][FAILED] - Homepage_TS: Test Cases/HOMEPAGE_TC/TC__002_Amazon_Username FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/DataDrivenTesting/DDT_Amazon_login_001' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at TC__002_Amazon_Username.run(TC__002_Amazon_Username:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706611407595.run(TempTestSuite1706611407595.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at DDT_Amazon_login_001.run(DDT_Amazon_login_001:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:137)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 25 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' located by '//span[@id='nav-link-accountList-nav-line-1']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 39 more]]></system-out>
+      <system-err><![CDATA[30-01-2024T16:13:38 - [TEST_SUITE][FAILED] - Homepage_TS: Test Cases/HOMEPAGE_TC/TC__002_Amazon_Username FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Call Test Case 'Test Cases/DataDrivenTesting/DDT_Amazon_login_001' failed
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:63)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.call(CallTestCaseKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:75)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.callTestCase(CallTestCaseKeyword.groovy:81)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword.execute(CallTestCaseKeyword.groovy:44)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.callTestCase(BuiltinKeywords.groovy:310)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at TC__002_Amazon_Username.run(TC__002_Amazon_Username:20)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1706611407595.run(TempTestSuite1706611407595.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:74)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:659)
+	at DDT_Amazon_login_001.run(DDT_Amazon_login_001:24)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseMain.runTestCase(TestCaseMain.java:137)
+	at com.kms.katalon.core.keyword.builtin.CallTestCaseKeyword$_callTestCase_closure1.doCall(CallTestCaseKeyword.groovy:59)
+	... 25 more
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/DDT_Amazon_Login_001_OR/Page_Amazon.com. Spend less. Smile more/span_Hello, sign in' located by '//span[@id='nav-link-accountList-nav-line-1']' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1379)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:65)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 39 more]]></system-err>
+   </testsuite>
+</testsuites>

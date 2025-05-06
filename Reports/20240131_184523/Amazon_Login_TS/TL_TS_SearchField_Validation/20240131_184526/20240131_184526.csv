@@ -1,0 +1,52 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TL_TS_SearchField_Validation,Chrome 121.0.0.0,,,31-01-2024 18:49:03,31-01-2024 18:51:44,2m - 41.184s,PASSED
+,,,,,,,
+Test Cases/TestListener/Amazon_ ValidateSearchFieldItem _TListener,Chrome 121.0.0.0,,,31-01-2024 18:49:03,31-01-2024 18:49:39,35.622s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,31-01-2024 18:49:03,31-01-2024 18:49:07,3.538s,PASSED
+refresh(),Chrome 121.0.0.0,,,31-01-2024 18:49:07,31-01-2024 18:49:08,1.147s,PASSED
+delay(10),Chrome 121.0.0.0,,,31-01-2024 18:49:08,31-01-2024 18:49:18,10.055s,PASSED
+"selectOptionByLabel(findTestObject(""SearchField/Validate_SearchField/SearchField_OR_002/All_Departments""), category, true)",Chrome 121.0.0.0,,,31-01-2024 18:49:18,31-01-2024 18:49:20,2.234s,PASSED
+delay(10),Chrome 121.0.0.0,,,31-01-2024 18:49:20,31-01-2024 18:49:30,10.018s,PASSED
+"setText(findTestObject(""SearchField/Validate_SearchField/SearchField_OR_002/Search_txt_field""), item)",Chrome 121.0.0.0,,,31-01-2024 18:49:30,31-01-2024 18:49:31,1.119s,PASSED
+"click(findTestObject(""SearchField/Validate_SearchField/SearchField_OR_002/iSearch_btn""))",Chrome 121.0.0.0,,,31-01-2024 18:49:31,31-01-2024 18:49:38,6.574s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,31-01-2024 18:49:38,31-01-2024 18:49:39,0.727s,PASSED
+,,,,,,,
+Test Cases/TestListener/Amazon_ ValidateSearchFieldItem _TListener,Chrome 121.0.0.0,,,31-01-2024 18:49:39,31-01-2024 18:50:09,30.576s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,31-01-2024 18:49:39,31-01-2024 18:49:42,2.740s,PASSED
+refresh(),Chrome 121.0.0.0,,,31-01-2024 18:49:42,31-01-2024 18:49:43,1.557s,PASSED
+delay(10),Chrome 121.0.0.0,,,31-01-2024 18:49:43,31-01-2024 18:49:53,10.015s,PASSED
+"selectOptionByLabel(findTestObject(""SearchField/Validate_SearchField/SearchField_OR_002/All_Departments""), category, true)",Chrome 121.0.0.0,,,31-01-2024 18:49:53,31-01-2024 18:49:54,1.195s,PASSED
+delay(10),Chrome 121.0.0.0,,,31-01-2024 18:49:54,31-01-2024 18:50:04,10.016s,PASSED
+"setText(findTestObject(""SearchField/Validate_SearchField/SearchField_OR_002/Search_txt_field""), item)",Chrome 121.0.0.0,,,31-01-2024 18:50:04,31-01-2024 18:50:05,0.732s,PASSED
+"click(findTestObject(""SearchField/Validate_SearchField/SearchField_OR_002/iSearch_btn""))",Chrome 121.0.0.0,,,31-01-2024 18:50:05,31-01-2024 18:50:09,3.784s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,31-01-2024 18:50:09,31-01-2024 18:50:09,0.480s,PASSED
+,,,,,,,
+Test Cases/TestListener/Amazon_ ValidateSearchFieldItem _TListener,Chrome 121.0.0.0,,,31-01-2024 18:50:09,31-01-2024 18:50:41,31.089s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,31-01-2024 18:50:09,31-01-2024 18:50:12,2.073s,PASSED
+refresh(),Chrome 121.0.0.0,,,31-01-2024 18:50:12,31-01-2024 18:50:13,1.084s,PASSED
+delay(10),Chrome 121.0.0.0,,,31-01-2024 18:50:13,31-01-2024 18:50:23,10.009s,PASSED
+"selectOptionByLabel(findTestObject(""SearchField/Validate_SearchField/SearchField_OR_002/All_Departments""), category, true)",Chrome 121.0.0.0,,,31-01-2024 18:50:23,31-01-2024 18:50:24,1.155s,PASSED
+delay(10),Chrome 121.0.0.0,,,31-01-2024 18:50:24,31-01-2024 18:50:34,10.011s,PASSED
+"setText(findTestObject(""SearchField/Validate_SearchField/SearchField_OR_002/Search_txt_field""), item)",Chrome 121.0.0.0,,,31-01-2024 18:50:34,31-01-2024 18:50:34,0.684s,PASSED
+"click(findTestObject(""SearchField/Validate_SearchField/SearchField_OR_002/iSearch_btn""))",Chrome 121.0.0.0,,,31-01-2024 18:50:34,31-01-2024 18:50:40,5.634s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,31-01-2024 18:50:40,31-01-2024 18:50:41,0.420s,PASSED
+,,,,,,,
+Test Cases/TestListener/Amazon_ ValidateSearchFieldItem _TListener,Chrome 121.0.0.0,,,31-01-2024 18:50:41,31-01-2024 18:51:13,32.795s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,31-01-2024 18:50:41,31-01-2024 18:50:43,2.723s,PASSED
+refresh(),Chrome 121.0.0.0,,,31-01-2024 18:50:43,31-01-2024 18:50:44,1.098s,PASSED
+delay(10),Chrome 121.0.0.0,,,31-01-2024 18:50:44,31-01-2024 18:50:54,10.009s,PASSED
+"selectOptionByLabel(findTestObject(""SearchField/Validate_SearchField/SearchField_OR_002/All_Departments""), category, true)",Chrome 121.0.0.0,,,31-01-2024 18:50:54,31-01-2024 18:50:56,1.514s,PASSED
+delay(10),Chrome 121.0.0.0,,,31-01-2024 18:50:56,31-01-2024 18:51:06,10.018s,PASSED
+"setText(findTestObject(""SearchField/Validate_SearchField/SearchField_OR_002/Search_txt_field""), item)",Chrome 121.0.0.0,,,31-01-2024 18:51:06,31-01-2024 18:51:07,0.706s,PASSED
+"click(findTestObject(""SearchField/Validate_SearchField/SearchField_OR_002/iSearch_btn""))",Chrome 121.0.0.0,,,31-01-2024 18:51:07,31-01-2024 18:51:13,6.261s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,31-01-2024 18:51:13,31-01-2024 18:51:13,0.446s,PASSED
+,,,,,,,
+Test Cases/TestListener/Amazon_ ValidateSearchFieldItem _TListener,Chrome 121.0.0.0,,,31-01-2024 18:51:13,31-01-2024 18:51:44,30.688s,PASSED
+Start listener action : sampleBeforeTestCase,Chrome 121.0.0.0,,,31-01-2024 18:51:13,31-01-2024 18:51:16,2.828s,PASSED
+refresh(),Chrome 121.0.0.0,,,31-01-2024 18:51:16,31-01-2024 18:51:17,0.484s,PASSED
+delay(10),Chrome 121.0.0.0,,,31-01-2024 18:51:17,31-01-2024 18:51:27,10.013s,PASSED
+"selectOptionByLabel(findTestObject(""SearchField/Validate_SearchField/SearchField_OR_002/All_Departments""), category, true)",Chrome 121.0.0.0,,,31-01-2024 18:51:27,31-01-2024 18:51:28,1.520s,PASSED
+delay(10),Chrome 121.0.0.0,,,31-01-2024 18:51:28,31-01-2024 18:51:38,10.010s,PASSED
+"setText(findTestObject(""SearchField/Validate_SearchField/SearchField_OR_002/Search_txt_field""), item)",Chrome 121.0.0.0,,,31-01-2024 18:51:38,31-01-2024 18:51:39,0.705s,PASSED
+"click(findTestObject(""SearchField/Validate_SearchField/SearchField_OR_002/iSearch_btn""))",Chrome 121.0.0.0,,,31-01-2024 18:51:39,31-01-2024 18:51:44,4.693s,PASSED
+Start listener action : sampleAfterTestCase,Chrome 121.0.0.0,,,31-01-2024 18:51:44,31-01-2024 18:51:44,0.419s,PASSED

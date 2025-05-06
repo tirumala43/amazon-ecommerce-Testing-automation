@@ -1,0 +1,56 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS_ValidateSearchField__002,Chrome 120.0.0.0,,,30-01-2024 19:28:18,30-01-2024 19:30:10,1m - 52.737s,PASSED
+,,,,,,,
+Test Cases/DataDrivenTesting/Validate_searchfield_TC_002,Chrome 120.0.0.0,validating the search field with with different inputs,,30-01-2024 19:28:18,30-01-2024 19:28:39,21.234s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,30-01-2024 19:28:18,30-01-2024 19:28:21,3.203s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,30-01-2024 19:28:21,30-01-2024 19:28:22,0.365s,PASSED
+delay(3),Chrome 120.0.0.0,,,30-01-2024 19:28:22,30-01-2024 19:28:25,3.085s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/SearchField/Page_Amazon.com. Spend less. Smile more/select_All Departments""), category, false)",Chrome 120.0.0.0,,,30-01-2024 19:28:25,30-01-2024 19:28:31,6.086s,PASSED
+"setText(findTestObject(""Object Repository/SearchField/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), items)",Chrome 120.0.0.0,,,30-01-2024 19:28:31,30-01-2024 19:28:32,1.459s,PASSED
+"click(findTestObject(""Object Repository/SearchField/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,30-01-2024 19:28:32,30-01-2024 19:28:38,5.853s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,30-01-2024 19:28:38,30-01-2024 19:28:39,0.835s,PASSED
+,,,,,,,
+Test Cases/DataDrivenTesting/Validate_searchfield_TC_002,Chrome 120.0.0.0,validating the search field with with different inputs,,30-01-2024 19:28:39,30-01-2024 19:29:02,22.425s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,30-01-2024 19:28:39,30-01-2024 19:28:41,1.416s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,30-01-2024 19:28:41,30-01-2024 19:28:42,1.090s,PASSED
+delay(3),Chrome 120.0.0.0,,,30-01-2024 19:28:42,30-01-2024 19:28:45,3.009s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/SearchField/Page_Amazon.com. Spend less. Smile more/select_All Departments""), category, false)",Chrome 120.0.0.0,,,30-01-2024 19:28:45,30-01-2024 19:28:54,9.132s,PASSED
+"setText(findTestObject(""Object Repository/SearchField/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), items)",Chrome 120.0.0.0,,,30-01-2024 19:28:54,30-01-2024 19:28:55,1.229s,PASSED
+"click(findTestObject(""Object Repository/SearchField/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,30-01-2024 19:28:55,30-01-2024 19:29:01,5.860s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,30-01-2024 19:29:01,30-01-2024 19:29:02,0.646s,PASSED
+,,,,,,,
+Test Cases/DataDrivenTesting/Validate_searchfield_TC_002,Chrome 120.0.0.0,validating the search field with with different inputs,,30-01-2024 19:29:02,30-01-2024 19:29:17,15.600s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,30-01-2024 19:29:02,30-01-2024 19:29:03,1.607s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,30-01-2024 19:29:03,30-01-2024 19:29:05,1.625s,PASSED
+delay(3),Chrome 120.0.0.0,,,30-01-2024 19:29:05,30-01-2024 19:29:08,3.014s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/SearchField/Page_Amazon.com. Spend less. Smile more/select_All Departments""), category, false)",Chrome 120.0.0.0,,,30-01-2024 19:29:08,30-01-2024 19:29:11,3.003s,PASSED
+"setText(findTestObject(""Object Repository/SearchField/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), items)",Chrome 120.0.0.0,,,30-01-2024 19:29:11,30-01-2024 19:29:12,1.184s,PASSED
+"click(findTestObject(""Object Repository/SearchField/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,30-01-2024 19:29:12,30-01-2024 19:29:17,4.692s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,30-01-2024 19:29:17,30-01-2024 19:29:17,0.451s,PASSED
+,,,,,,,
+Test Cases/DataDrivenTesting/Validate_searchfield_TC_002,Chrome 120.0.0.0,validating the search field with with different inputs,,30-01-2024 19:29:17,30-01-2024 19:29:35,17.397s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,30-01-2024 19:29:17,30-01-2024 19:29:19,1.343s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,30-01-2024 19:29:19,30-01-2024 19:29:20,1.475s,PASSED
+delay(3),Chrome 120.0.0.0,,,30-01-2024 19:29:20,30-01-2024 19:29:23,3.007s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/SearchField/Page_Amazon.com. Spend less. Smile more/select_All Departments""), category, false)",Chrome 120.0.0.0,,,30-01-2024 19:29:23,30-01-2024 19:29:29,5.437s,PASSED
+"setText(findTestObject(""Object Repository/SearchField/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), items)",Chrome 120.0.0.0,,,30-01-2024 19:29:29,30-01-2024 19:29:30,1.594s,PASSED
+"click(findTestObject(""Object Repository/SearchField/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,30-01-2024 19:29:30,30-01-2024 19:29:34,4.070s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,30-01-2024 19:29:34,30-01-2024 19:29:35,0.445s,PASSED
+,,,,,,,
+Test Cases/DataDrivenTesting/Validate_searchfield_TC_002,Chrome 120.0.0.0,validating the search field with with different inputs,,30-01-2024 19:29:35,30-01-2024 19:29:55,20.709s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,30-01-2024 19:29:35,30-01-2024 19:29:36,1.380s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,30-01-2024 19:29:36,30-01-2024 19:29:38,1.637s,PASSED
+delay(3),Chrome 120.0.0.0,,,30-01-2024 19:29:38,30-01-2024 19:29:41,3.009s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/SearchField/Page_Amazon.com. Spend less. Smile more/select_All Departments""), category, false)",Chrome 120.0.0.0,,,30-01-2024 19:29:41,30-01-2024 19:29:50,8.928s,PASSED
+"setText(findTestObject(""Object Repository/SearchField/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), items)",Chrome 120.0.0.0,,,30-01-2024 19:29:50,30-01-2024 19:29:51,1.320s,PASSED
+"click(findTestObject(""Object Repository/SearchField/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,30-01-2024 19:29:51,30-01-2024 19:29:55,3.943s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,30-01-2024 19:29:55,30-01-2024 19:29:55,0.466s,PASSED
+,,,,,,,
+Test Cases/DataDrivenTesting/Validate_searchfield_TC_002,Chrome 120.0.0.0,validating the search field with with different inputs,,30-01-2024 19:29:55,30-01-2024 19:30:10,14.833s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,30-01-2024 19:29:56,30-01-2024 19:29:57,1.465s,PASSED
+"navigateToUrl(""https://www.amazon.com/"")",Chrome 120.0.0.0,,,30-01-2024 19:29:57,30-01-2024 19:29:58,1.100s,PASSED
+delay(3),Chrome 120.0.0.0,,,30-01-2024 19:29:58,30-01-2024 19:30:01,3.018s,PASSED
+"selectOptionByLabel(findTestObject(""Object Repository/SearchField/Page_Amazon.com. Spend less. Smile more/select_All Departments""), category, false)",Chrome 120.0.0.0,,,30-01-2024 19:30:01,30-01-2024 19:30:05,3.497s,PASSED
+"setText(findTestObject(""Object Repository/SearchField/Page_Amazon.com. Spend less. Smile more/input_field-keywords""), items)",Chrome 120.0.0.0,,,30-01-2024 19:30:05,30-01-2024 19:30:06,1.326s,PASSED
+"click(findTestObject(""Object Repository/SearchField/Page_Amazon.com. Spend less. Smile more/inputnav-search-submit-button""))",Chrome 120.0.0.0,,,30-01-2024 19:30:06,30-01-2024 19:30:10,3.980s,PASSED
+closeBrowser(),Chrome 120.0.0.0,,,30-01-2024 19:30:10,30-01-2024 19:30:10,0.422s,PASSED
