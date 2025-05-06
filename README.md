@@ -6,6 +6,11 @@ Project Type: Guided Internship Project
 
 🧾 Project Overview
 This project automates the testing of the Amazon e-commerce website using Katalon Studio. Developed during a guided internship with SmartIntern, it encompasses end-to-end test cases for functionalities such as product search, cart operations, and checkout processes. The primary objective is to ensure the reliability and robustness of key user flows on the Amazon platform.
+--------------------------------------------------------------------------------
+Project - Practical Demo Youtube link Overview
+--------------------------------------------------------------------------------
+Youtube link:   https://youtu.be/STYKCfqOzAQ 
+--------------------------------------------------------------------------------
 
 🧰 Tools & Technologies
 Automation Tool: Katalon Studio
@@ -17,6 +22,8 @@ Framework: Built-in Katalon Test Framework
 Test Design: Data-driven testing using external data files
 
 Reporting: Katalon's built-in reporting features
+
+----------------------------------------------------------------------------------------------------------------------------------------------------
 
 📁 Project Structure
 The repository is organized as follows:
@@ -40,6 +47,8 @@ Edit
 ├── .project              # Project metadata
 ├── README.md             # Project documentation
 └── SI-GuidedProject-705242-1704854759.prj  # Katalon project file
+----------------------------------------------------------------------------------------------------------------------------------------------------
+
 ✅ Test Scenarios Covered
 Product Search: Validates the search functionality with various keywords.
 
@@ -50,6 +59,7 @@ Cart Verification: Checks the accuracy of items and quantities in the cart.
 Checkout Process: Verifies the checkout workflow up to the payment page.
 
 Data-Driven Testing: Executes test cases with multiple data sets to validate robustness.
+---------------------------------------------------------------------------------------------------------------------------------------------------
 
 🚀 Getting Started
 To set up and run the tests:
@@ -77,7 +87,7 @@ Execute Test Suites:
 Navigate to the Test Suites/ directory.
 
 Select the desired test suite and click 'Run'.
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------
 📊 Test Reports
 Post-execution, detailed reports are generated in the Reports/ directory. These reports include:
 
@@ -86,6 +96,7 @@ Execution Summary: Overview of test cases executed, passed, and failed.
 Detailed Logs: Step-by-step logs for each test case.
 
 Screenshots: Captured at points of failure for debugging purposes.
+--------------------------------------------------------------------------------------------------------------------------------------------------------
 
 🧠 Learnings & Contributions
 Through this project, I have:
@@ -97,6 +108,7 @@ Understood the implementation of data-driven testing methodologies.
 Learned to structure and organize test automation projects effectively.
 
 Developed skills in identifying and handling dynamic web elements.
+-------------------------------------------------------------------------------------------------------------------------------------------------------
 
 📬 Contact
 For any queries or discussions:
